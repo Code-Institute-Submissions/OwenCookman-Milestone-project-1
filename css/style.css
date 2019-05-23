@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+.background {
+    background: url("../assets/images/background.jpg");
+    background-position: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.logo {
+    background: url("../assets/images/40klogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    top: 40px;
+}
+
+.intro-vid {
+    top: 150px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.tag-line {
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+}
+
+
+.standard-text {
+    color: #fafafa;
+}
