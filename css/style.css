@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
+/*---------------------------------------------------------Background*/
 .background {
     background: url("../assets/images/background.jpg");
     background-position: center;
@@ -14,6 +15,7 @@
     -o-background-size: cover;
 }
 
+/*---------------------------------------------------------Header*/
 .logo {
     background: url("../assets/images/40klogo.jpg");
     background-position: center;
@@ -27,17 +29,93 @@
     top: 150px;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 
-.tag-line {
+.header {
     color: #fafafa;
     text-align: center;
     text-transform: uppercase;
     font-family: "teko", sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
-
-.standard-text {
+/*---------------------------------------------------------Introductory collapse*/
+.intro-collapse {
+    font-size: 50px;
     color: #fafafa;
+    text-align: center;
+    bottom: 30px;
+}
+
+a:hover {
+    color: #575757;
+    text-decoration: none;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.collapse-text {
+    color: #fafafa;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*---------------------------------------------------------Faction images*/
+.space-marine {
+    background:url("../assets/images/spacemarine.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+
+.chaos-space-marine {
+    background:url("../assets/images/chaosspacemarine.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+
+.ork {
+    background:url("../assets/images/ork.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+
+.asuryani {
+    background:url("../assets/images/eldar.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+
+.faction {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.faction-container {
+    margin-bottom: 60px;
+}
+
+/*---------------------------------------------------------Modals*/
+.modal-content {
+    background: url("../assets/images/background.jpg");
+}
+
+.faction-info {
+    color: #fafafa;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
 }

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Warhammer 40,000</title>
@@ -23,17 +24,134 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <h1 class="col tag-line">In the grim darkness of the far future there is only war!</h1>
+                <h1 class="col header">In the grim darkness of the far future there is only war!</h1>
             </div>
         </div>
     </div>
 </header>
+
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <p class= "col standard-text"></p>
+    <div class="container-fluid">
+        <div class="row">
+            <a class="col fas fa-caret-down intro-collapse" data-toggle="collapse" href="#introduction" role="button" aria-expanded="false" aria-controls="introduction"></a>
+            </a>
+            <div class="collapse" id="introduction">
+                <div class="card card-body">
+                    <p class="collapse-text">Warhammer 40,000 is an awesome hobby. Collect incredible armies of miniatures representing armies from the distant future, then recreate the brutal clash of 41st Millennium warfare in tabletop games of strategy and luck for two or
+                        more players. Each aspect of the Warhammer 40,000 hobby is hugely rewarding and satisfying in its own right. Build and paint your collection as you choose, to represent one of the iconic forces of the far future, or one of your
+                        own invention. Your army can be whatever you want it to be: legions of infantry, powerful heroes, formations of tanks, demonic and alien monsters or titanic lords of war. Play missions across battlefields of your own creation where
+                        no two games need ever be the same. Battle competitively at local gaming clubs, in our stores, at one of the thousands of tournaments that take place across the world each year, or forge a narrative with a battle or campaign that
+                        embraces the vast and limitless options offered from one of the richest and most expansive settings in all of fantasy and science fiction. Welcome to the 41st Millennium.</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-sm-3 space-marine faction-container">
+                <a href="#spacemarineinfo" class="faction" data-toggle="modal" data-target="#spacemarineinfo"></a>
+            </div>
+            <div class="col-6 col-sm-3 chaos-space-marine faction-container">
+                <a href="#chaosspacemarineinfo" class="faction" data-toggle="modal" data-target="#chaosspacemarineinfo"></a>
+            </div>
+            <div class="col-6 col-sm-3 ork faction-container">
+                <a href="#orkinfo" class="faction" data-toggle="modal" data-target="#orkinfo"></a>
+            </div>
+            <div class="col-6 col-sm-3 asuryani faction-container">
+                <a href="#asuryaniinfo" class="faction" data-toggle="modal" data-target="#asuryaniinfo"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Space marine modal content -->
+    <div class="modal faction-modal" tabindex="-1" role="dialog" id="spacemarineinfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title header">Space Marines</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p class="faction-info">Over ten thousand years of constant warfare has honed Mankind’s military might, for the galaxy is a hostile place and only by force of arms is the Imperium held together. It is an age of war and only the strong and the ruthless can
+                        hope to survive. Out amongst the stars there can be no mercy, no weakness and no respite from the unending war for survival. Space Marines are organised into Chapters, each consisting of one thousand battle-brothers and possessed
+                        of their own armouries, fighting vehicles, space fleets and towering fortress monasteries. Though there is less than one warrior of the Adeptus Astartes for every planet in the Imperium, it is a testament to their sheer might and
+                        heroism that this number is still sufficient to hurl back the enemies of Humanity upon every front. Space Marines are genetically engineered super-human warriors. Armed and armoured with the best equipment the Imperium can provide,
+                        they are the Emperor’s most elite fighting forces. To the Space Marines fall the most desperate and vital of the Imperium’s battles, holding the line where all others have fallen, or striking like the Emperor’s own blade to bring
+                        death to xenos warlords and daemonic abominations alike.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chaos Space marine modal content -->
+    <div class="modal faction-modal" tabindex="-1" role="dialog" id="chaosspacemarineinfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title header">Chaos Space Marines</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p class="faction-info">As the favoured champions of the Chaos Gods, the Heretic Astartes are blessed with many gifts. They may have profane boons bestowed upon them which grant unnatural strength and resilience, or horrific weapon-mutations that can peel
+                        the flesh from a foe with sickening ease. All manner of hideous creatures dwell within the warp, a hellish, roiling dimension in which the greatest passions and fears of mortal creatures are given terrible form. Acts of monstrous
+                        atrocity or foul ritual can weaken the barriers between realms, unleashing the nightmare of a daemonic incursion into realspace. Led by horrifically powerful Greater Daemons and Daemon Princes – mortals who have been granted the
+                        gift of Daemonhood – these profane hosts fight alongside bands of Heretic Astartes and crazed cultists. The Heretic Astartes are Humanity’s greatest foes, traitorous Space Marines who have turned from the light of the Emperor and
+                        embraced the baleful glory of Chaos. Consumed with bitter hatred, these champions of ruin prey upon the Imperium they once swore to defend. The warbands and Legions of the Heretic Astartes each fight in their own unique manner;
+                        the World Eaters, for example, are berserkers who worship Khorne, the Blood God, and fall upon their foes in a gore-splattered orgy of slaughter. The Night Lords employ terror tactics to soften up their prey before striking from
+                        the darkness, while the Crimson Slaughter are relatively new to the ranks of Renegade Space Marines using the poltergeists that haunt them against the agents of the Corpse Emperor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Orks modal content -->
+    <div class="modal faction-modal" tabindex="-1" role="dialog" id="orkinfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title header">orks</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p class="faction-info">Mankind is not the only race to walk among the stars. Since they first travelled beyond their own star system, in the early days of the Age of Technology, Mankind has encountered alien races, most of which have proven hostile. While
+                        some xenos exist only on a single planet, other civilisations might occupy a star system and there are a few that are widely spread across the great void of the galaxy. It has never been in Man’s nature to share his worlds with
+                        aliens, and bloodshed has ever formed the foundation of empire. The belligerent and warlike Orks have been a blight on the galaxy since time immemorial. The entire culture of these brutish xenos is centred around warfare. They
+                        live for the exhilaration of a good fight, the deafening thunder of gunfire, and the rush of hurtling into battle in speeding, ramshackle fighting vehicles. When gathered into their billions-strong hordes they can spell the doom
+                        of entire space sectors. Ork technology is scrapped together from whatever raw materials are found near to hand, and as a result it is ramshackle, crude and often dangerously unreliable. Despite, or perhaps because of this unpredictability,
+                        it can also be utterly deadly – to the wielder as well as his target. When Orks gather in sufficient numbers, flocking to the banners of the hulking brutes known as Warbosses, they will embark upon a Waaagh! – an unstoppable crusade
+                        driven by unquenchable battle-lust. Vast hordes of Orks sweep across planet after planet, crushing all before them in a deafening, smoke-belching tide of clanking war machines. All semblance or order and civilisation is torn down,
+                        shattered and burned, and amidst the ashes the Orks gather around their towering war effigies, bellowing praises to the monstrous gods they call Gork and Mork.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Asuryani modal content -->
+    <div class="modal faction-modal" tabindex="-1" role="dialog" id="asuryaniinfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title header">Asuryani</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p class="faction-info">The Aeldari are an alien race that once ruled the galaxy. Technologically, militarily and intellectually the Aeldari are as far superior to Humanity as Humanity are to primitive simians. They possess weapons that can extinguish stars,
+                        they tread secret paths beyond the bounds of reality, and their towering psychic might allows them to read and weave the strands of fate itself. Yet for all this the Aeldari are but an echo, a faded, splintered remnant of their
+                        former glory. Their numbers dwindle by the decade, and their battle is now one of survival, not supremacy. Although only a shadow of their former glory, the Aeldari are still a formidable power. Confident in the superiority of
+                        their technology and martial prowess, the Aeldari justifiably look down on the barbaric usurpers that have overrun the galaxy. Who could compare the crude, smoke-belching engines of Man or Ork to the sleek grav tanks or streaking
+                        jetbikes of the Aeldari? In combat, observe how lumbering and slow the movements of a human soldier are against the precise, graceful attack of an Aeldari. Only in sheer numbers do the Aeldari come up short in comparison to the
+                        other forces in the galaxy, though the quick-striking Aeldari way of war can offset this lone disadvantage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
