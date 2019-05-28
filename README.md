@@ -3,8 +3,8 @@ The objective of this webpage is to provide an introduction to the Warhammer 40,
 As the warhammer 40,000 universe has a huge rich background of lore and factions it can be quite daunting for new players, collectors and readers to pick 
 up.
 The idea behind this website is to create an introduction for people interested in Warhammer 40,000 without overloading them with information and still 
-providing the means to gain access to any further information that they might want, this will help to drive trafic towards games workshop's other websites 
-as well as social media pages.
+providing the means to gain access to any further information that they might want, this will help to drive traffic towards games workshop's other websites 
+as well as social media pages and in turn drive up sales.
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
