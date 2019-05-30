@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
 /*---------------------------------------------------------Background*/
+
 .background {
     background: url("../assets/images/background.jpg");
     background-position: center;
@@ -16,6 +17,7 @@
 }
 
 /*---------------------------------------------------------Header*/
+
 .logo {
     background: url("../assets/images/40klogo.jpg");
     background-position: center;
@@ -41,6 +43,7 @@
 }
 
 /*---------------------------------------------------------Introductory collapse*/
+
 .intro-collapse {
     font-size: 50px;
     color: #fafafa;
@@ -66,9 +69,10 @@ a:hover {
 }
 
 /*---------------------------------------------------------Faction images*/
+
 .space-marine {
-    background:url("../assets/images/spacemarine.jpg");
-     background-position: center;
+    background: url("../assets/images/spacemarine.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -76,8 +80,8 @@ a:hover {
 }
 
 .chaos-space-marine {
-    background:url("../assets/images/chaosspacemarine.jpg");
-     background-position: center;
+    background: url("../assets/images/chaosspacemarine.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -85,8 +89,8 @@ a:hover {
 }
 
 .ork {
-    background:url("../assets/images/ork.jpg");
-     background-position: center;
+    background: url("../assets/images/ork.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -94,8 +98,8 @@ a:hover {
 }
 
 .asuryani {
-    background:url("../assets/images/eldar.jpg");
-     background-position: center;
+    background: url("../assets/images/eldar.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -109,6 +113,7 @@ a:hover {
 }
 
 /*---------------------------------------------------------Modals*/
+
 .modal-content {
     background: url("../assets/images/background.jpg");
 }
@@ -119,3 +124,49 @@ a:hover {
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+/*---------------------------------------------------------Footer*/
+
+.wh-community {
+    background: url("../assets/images/wh-community.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.gw-home {
+    background: url("../assets/images/gw-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.fw-home {
+    background: url("../assets/images/fw-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.bl-home {
+    background: url("../assets/images/bl-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.facebook {}
+
+.twitter {}
+
+.youtube {}
+
+.insta {}
