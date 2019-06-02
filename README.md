@@ -1,4 +1,5 @@
-ocookman-ucfd-project1 (Warhammer 40,000 introduction)
+------------------------------ocookman-ucfd-project1 (Warhammer 40,000 introduction)----------------------------------------------------------------------
+
 The objective of this webpage is to provide an introduction to the Warhammer 40,000 universe along with an introduction to some of the original factions.
 As the warhammer 40,000 universe has a huge rich background of lore and factions it can be quite daunting for new players, collectors and readers to pick 
 up.
@@ -6,10 +7,19 @@ The idea behind this website is to create an introduction for people interested 
 providing the means to gain access to any further information that they might want, this will help to drive traffic towards games workshop's other websites 
 as well as social media pages and in turn drive up sales.
 
-UX
+------------------------------------------------------------UX
+
+The website is aimed at people who have an interest in the Warhammer 40,000 universe weather it is collecting, painting and/or playing the various games set 
+in the universe or the novels and background itself which interests them, the universe is a huge and dauntig thing to get in to and it may be difficult for
+new players to find where to start.
+This website would be used as an introduction to the Warhammer 40,000 universe as well as an introduction to some of the classic factions providing a portal
+to the various Games workshop websites so users can easily find their way to the content that they are looking for. 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+------------------------------------------------------------User Stories
+
+As a user who is interested in collectiong the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
+on where to start and which faction interests me the most
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -59,15 +69,24 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
+Credits---------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------Content
 The text used in the introductory collapse and faction modals were copied from www.warhammer40000.com
-Media
+
+-----------------------------------------Media
 The "40klogo.jpg" image was taken from www.themarysue.com
 The background image for the page and modals was taken from www.hadi.palmex.co
 The "spacemarine.jpg" image was taken from www.warhammer40000.com
-the "chaosspacemarine.jpg" image was taken from www.eternalcrusade.com
-the "eldar.jpg" image was taken from www.mikemyler.com
-the "ork.jpg" image was taken from www.pinterest.com (originl art by albe75.deviantart.com on deviantART)
+The "chaosspacemarine.jpg" image was taken from www.eternalcrusade.com
+The "eldar.jpg" image was taken from www.mikemyler.com
+The "ork.jpg" image was taken from www.pinterest.com (originl art by albe75.deviantart.com on deviantART)
+The "collapse-filler.jpg" image was taken from www.warhammer-community.com
+The "gw-logo.jpg" image was taken from the games workshop wiki page (https://en.wikipedia.org/wiki/Games_Workshop)
+The "bl-logo.jpg" image was taken from www.warhammer-community.com
+The "wh-community.jpg" image was taken from www.40krpgtools.com
+The "fw-logo.jpg" image was taken from www.spikeybits.com 
+The "replacement.jpg" image was taken from www.warhammer-community.com
+
 Acknowledgements
 I received inspiration for this project from X

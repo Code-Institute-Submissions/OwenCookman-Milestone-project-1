@@ -40,12 +40,12 @@
 }
 
 .replacement {
-    background:url("../assets/images/replacement.jpg");
+    background: url("../assets/images/replacement.jpg");
     position: relative;
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    top: 30px;
+    top: 20px;
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -96,8 +96,8 @@ a:hover {
 }
 
 .collapse-filler {
-    background:url("../assets/images/collapse-filler.jpg");
-     background-position: center;
+    background: url("../assets/images/collapse-filler.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 250px;
@@ -159,6 +159,29 @@ a:hover {
 
 /*---------------------------------------------------------Modals*/
 
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fafafa;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
 .modal-content {
     background: url("../assets/images/background.jpg");
 }
@@ -170,16 +193,6 @@ a:hover {
     letter-spacing: 1px;
 }
 
-.sm-filler {
-    background:url("../assets/images/sm-filler.jpg");
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-
 /*---------------------------------------------------------Footer*/
 
 .wh-community {
@@ -189,6 +202,14 @@ a:hover {
     background-size: contain;
     max-height: 50px;
     margin-bottom: 60px;
+}
+
+.footer-text {
+    font-family: "teko", sans-serif;
+    text-align: center;
+    color: #555555;
+    display: block;
+    margin-top: 50px;
 }
 
 .gw-home {
