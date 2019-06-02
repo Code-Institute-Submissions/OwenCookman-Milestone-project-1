@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<div class="background"></div>
+
 
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,7 @@
     <title>Warhammer 40,000</title>
 </head>
 <header>
+    <div class="background"></div>
     <div class="container-fluid">
         <div class="row">
             <a href="index.html" class="col logo"></a>
@@ -21,6 +22,7 @@
             <div class="row">
                 <iframe class="intro-vid" width="790" height="472" align="center" src="https://www.youtube.com/embed/1_wXCBDiLEA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <div class="replacement"></div>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -31,21 +33,34 @@
 </header>
 
 <body>
+    <!-- intro collapse -->
     <div class="container-fluid">
         <div class="row">
             <a class="col fas fa-caret-down intro-collapse" data-toggle="collapse" href="#introduction" role="button" aria-expanded="false" aria-controls="introduction"></a>
             </a>
             <div class="collapse" id="introduction">
                 <div class="card card-body">
+                    <h2 class="collapse-header">An Introduction...</h2>
+                    <p class="collapse-text">It is the 41st Millennium. For more than a hundred centuries The Emperor has sat immobile on the Golden Throne of Earth. He is the Master of Mankind by the will of the gods, and master of a million worlds by the might of his inexhaustible
+                        armies. He is a rotting carcass writhing invisibly with power from the Dark Age of Technology. He is the Carrion Lord of the Imperium for whom a thousand souls are sacrificed every day, so that he may never truly die. Yet even
+                        in his deathless state, the Emperor continues his eternal vigilance. Mighty battlefleets cross the daemon-infested miasma of the Warp, the only route between distant stars, their way lit by the Astronomican, the psychic manifestation
+                        of the Emperor's will. Vast armies give battle in his name on uncounted worlds. Greatest amongst his soldiers are the Adeptus Astartes, the Space Marines, bio-engineered super-warriors. Their comrades in arms are legion: the Imperial
+                        Guard and countless planetary defence forces, the ever vigilant Inquisition and the tech-priests of the Adeptus Mechanicus to name only a few. But for all their multitudes, they are barely enough to hold off the ever-present threat
+                        from aliens, heretics, mutants - and worse. To be a man in such times is to be one amongst untold billions. It is to live in the cruelest and most bloody regime imaginable. These are the tales of those times. Forget the power of
+                        technology and science, for so much has been forgotten, never to be re-learned. Forget the promise of progress and understanding, for in the grim dark future there is only war. There is no peace amongst the stars, only an eternity
+                        of carnage and slaughter, and the laughter of thirsting gods.</p>
+                        <div class="collapse-filler"></div>
                     <p class="collapse-text">Warhammer 40,000 is an awesome hobby. Collect incredible armies of miniatures representing armies from the distant future, then recreate the brutal clash of 41st Millennium warfare in tabletop games of strategy and luck for two or
                         more players. Each aspect of the Warhammer 40,000 hobby is hugely rewarding and satisfying in its own right. Build and paint your collection as you choose, to represent one of the iconic forces of the far future, or one of your
                         own invention. Your army can be whatever you want it to be: legions of infantry, powerful heroes, formations of tanks, demonic and alien monsters or titanic lords of war. Play missions across battlefields of your own creation where
                         no two games need ever be the same. Battle competitively at local gaming clubs, in our stores, at one of the thousands of tournaments that take place across the world each year, or forge a narrative with a battle or campaign that
                         embraces the vast and limitless options offered from one of the richest and most expansive settings in all of fantasy and science fiction. Welcome to the 41st Millennium.</p>
+                    <p class="collapse-text">Below are four of the original factions from the Warhammer 40,000 universe. Click on an image to read about each one...</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- faction links -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 col-sm-3 space-marine">
@@ -74,11 +89,11 @@
                 </div>
                 <div class="modal-body">
                     <p class="faction-info">Over ten thousand years of constant warfare has honed Mankind’s military might, for the galaxy is a hostile place and only by force of arms is the Imperium held together. It is an age of war and only the strong and the ruthless can
-                        hope to survive. Out amongst the stars there can be no mercy, no weakness and no respite from the unending war for survival. Space Marines are organised into Chapters, each consisting of one thousand battle-brothers and possessed
-                        of their own armouries, fighting vehicles, space fleets and towering fortress monasteries. Though there is less than one warrior of the Adeptus Astartes for every planet in the Imperium, it is a testament to their sheer might and
-                        heroism that this number is still sufficient to hurl back the enemies of Humanity upon every front. Space Marines are genetically engineered super-human warriors. Armed and armoured with the best equipment the Imperium can provide,
-                        they are the Emperor’s most elite fighting forces. To the Space Marines fall the most desperate and vital of the Imperium’s battles, holding the line where all others have fallen, or striking like the Emperor’s own blade to bring
-                        death to xenos warlords and daemonic abominations alike.</p>
+                        hope to survive. Out amongst the stars there can be no mercy, no weakness and no respite from the unending war for survival.</p>
+                    <p class="faction-info">Space Marines are organised into Chapters, each consisting of one thousand battle-brothers and possessed of their own armouries, fighting vehicles, space fleets and towering fortress monasteries. Though there is less than one warrior
+                        of the Adeptus Astartes for every planet in the Imperium, it is a testament to their sheer might and heroism that this number is still sufficient to hurl back the enemies of Humanity upon every front. Space Marines are genetically
+                        engineered super-human warriors. Armed and armoured with the best equipment the Imperium can provide, they are the Emperor’s most elite fighting forces. To the Space Marines fall the most desperate and vital of the Imperium’s battles,
+                        holding the line where all others have fallen, or striking like the Emperor’s own blade to bring death to xenos warlords and daemonic abominations alike.</p>
                 </div>
             </div>
         </div>
@@ -89,6 +104,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title header">Chaos Space Marines</h3>
+                    <div class="sm-filler"></div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -97,10 +113,11 @@
                     <p class="faction-info">As the favoured champions of the Chaos Gods, the Heretic Astartes are blessed with many gifts. They may have profane boons bestowed upon them which grant unnatural strength and resilience, or horrific weapon-mutations that can peel
                         the flesh from a foe with sickening ease. All manner of hideous creatures dwell within the warp, a hellish, roiling dimension in which the greatest passions and fears of mortal creatures are given terrible form. Acts of monstrous
                         atrocity or foul ritual can weaken the barriers between realms, unleashing the nightmare of a daemonic incursion into realspace. Led by horrifically powerful Greater Daemons and Daemon Princes – mortals who have been granted the
-                        gift of Daemonhood – these profane hosts fight alongside bands of Heretic Astartes and crazed cultists. The Heretic Astartes are Humanity’s greatest foes, traitorous Space Marines who have turned from the light of the Emperor and
-                        embraced the baleful glory of Chaos. Consumed with bitter hatred, these champions of ruin prey upon the Imperium they once swore to defend. The warbands and Legions of the Heretic Astartes each fight in their own unique manner;
-                        the World Eaters, for example, are berserkers who worship Khorne, the Blood God, and fall upon their foes in a gore-splattered orgy of slaughter. The Night Lords employ terror tactics to soften up their prey before striking from
-                        the darkness, while the Crimson Slaughter are relatively new to the ranks of Renegade Space Marines using the poltergeists that haunt them against the agents of the Corpse Emperor.</p>
+                        gift of Daemonhood – these profane hosts fight alongside bands of Heretic Astartes and crazed cultists.</p>
+                    <p class="faction-info">The Heretic Astartes are Humanity’s greatest foes, traitorous Space Marines who have turned from the light of the Emperor and embraced the baleful glory of Chaos. Consumed with bitter hatred, these champions of ruin prey upon the Imperium
+                        they once swore to defend. The warbands and Legions of the Heretic Astartes each fight in their own unique manner; the World Eaters, for example, are berserkers who worship Khorne, the Blood God, and fall upon their foes in a gore-splattered
+                        orgy of slaughter. The Night Lords employ terror tactics to soften up their prey before striking from the darkness, while the Crimson Slaughter are relatively new to the ranks of Renegade Space Marines using the poltergeists that
+                        haunt them against the agents of the Corpse Emperor.</p>
                 </div>
             </div>
         </div>
@@ -118,12 +135,13 @@
                 <div class="modal-body">
                     <p class="faction-info">Mankind is not the only race to walk among the stars. Since they first travelled beyond their own star system, in the early days of the Age of Technology, Mankind has encountered alien races, most of which have proven hostile. While
                         some xenos exist only on a single planet, other civilisations might occupy a star system and there are a few that are widely spread across the great void of the galaxy. It has never been in Man’s nature to share his worlds with
-                        aliens, and bloodshed has ever formed the foundation of empire. The belligerent and warlike Orks have been a blight on the galaxy since time immemorial. The entire culture of these brutish xenos is centred around warfare. They
-                        live for the exhilaration of a good fight, the deafening thunder of gunfire, and the rush of hurtling into battle in speeding, ramshackle fighting vehicles. When gathered into their billions-strong hordes they can spell the doom
-                        of entire space sectors. Ork technology is scrapped together from whatever raw materials are found near to hand, and as a result it is ramshackle, crude and often dangerously unreliable. Despite, or perhaps because of this unpredictability,
-                        it can also be utterly deadly – to the wielder as well as his target. When Orks gather in sufficient numbers, flocking to the banners of the hulking brutes known as Warbosses, they will embark upon a Waaagh! – an unstoppable crusade
-                        driven by unquenchable battle-lust. Vast hordes of Orks sweep across planet after planet, crushing all before them in a deafening, smoke-belching tide of clanking war machines. All semblance or order and civilisation is torn down,
-                        shattered and burned, and amidst the ashes the Orks gather around their towering war effigies, bellowing praises to the monstrous gods they call Gork and Mork.</p>
+                        aliens, and bloodshed has ever formed the foundation of empire.</p>
+                    <p class="faction-info">The belligerent and warlike Orks have been a blight on the galaxy since time immemorial. The entire culture of these brutish xenos is centred around warfare. They live for the exhilaration of a good fight, the deafening thunder of
+                        gunfire, and the rush of hurtling into battle in speeding, ramshackle fighting vehicles. When gathered into their billions-strong hordes they can spell the doom of entire space sectors. Ork technology is scrapped together from
+                        whatever raw materials are found near to hand, and as a result it is ramshackle, crude and often dangerously unreliable. Despite, or perhaps because of this unpredictability, it can also be utterly deadly – to the wielder as well
+                        as his target. When Orks gather in sufficient numbers, flocking to the banners of the hulking brutes known as Warbosses, they will embark upon a Waaagh! – an unstoppable crusade driven by unquenchable battle-lust. Vast hordes of
+                        Orks sweep across planet after planet, crushing all before them in a deafening, smoke-belching tide of clanking war machines. All semblance or order and civilisation is torn down, shattered and burned, and amidst the ashes the
+                        Orks gather around their towering war effigies, bellowing praises to the monstrous gods they call Gork and Mork.</p>
                 </div>
             </div>
         </div>
@@ -157,20 +175,48 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 col-sm-3 wh-community">
-                <a href="#" class="faction"></a>
+            <div class="col-6 col-sm-3">
+                <a target="_blank" href="https://www.warhammer-community.com/" class="footer-logo wh-community"></a>
             </div>
-            <div class="col-6 col-sm-3 gw-home">
-                <a href="#" class="faction"></a>
+            <div class="col-6 col-sm-3">
+                <a target="_blank" href="https://www.games-workshop.com/Home?_requestid=1232731" class="footer-logo gw-home"></a>
             </div>
-            <div class="col-6 col-sm-3 fw-home">
-                <a href="#" class="faction"></a>
+            <div class="col-6 col-sm-3">
+                <a target="_blank" href="https://www.forgeworld.co.uk/en-GB/FW-Home" class="footer-logo fw-home"></a>
             </div>
-            <div class="col-6 col-sm-3 bl-home">
-                <a href="#" class="faction"></a>
+            <div class="col-6 col-sm-3">
+                <a target="_blank" href="https://www.blacklibrary.com/" class="footer-logo bl-home"></a>
             </div>
         </div>
     </div>
+    <div class="col">
+                <ul class="list-inline social-container">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/Warhammer-40000-1575682476085719/">
+                            <i class="fab fa-facebook-square social" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/warhammerofficial/?hl=en">
+                            <i class="fab fa-instagram social" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.twitch.tv/warhammer">
+                            <i class="fab fa-twitch social" aria-hidden="true"></i>
+                            <span class="sr-only">Twitch</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCwdh3MTrFq3sXlB4ct8B-Fg">
+                            <i class="fab fa-youtube social" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 </footer>
 
 </html>

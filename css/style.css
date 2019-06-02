@@ -33,6 +33,30 @@
     padding-top: 50px;
 }
 
+@media (max-width: 767px) {
+    .intro-vid {
+        display: none;
+    }
+}
+
+.replacement {
+    background:url("../assets/images/replacement.jpg");
+    position: relative;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .replacement {
+        display: none;
+    }
+}
+
 .header {
     color: #fafafa;
     text-align: center;
@@ -49,6 +73,10 @@
     color: #fafafa;
     text-align: center;
     bottom: 30px;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
 }
 
 a:hover {
@@ -58,6 +86,23 @@ a:hover {
 
 .card {
     background-color: transparent;
+}
+
+.collapse-header {
+    color: #fafafa;
+    font-family: "teko", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.collapse-filler {
+    background:url("../assets/images/collapse-filler.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 125px;
+    margin: 0 auto;
 }
 
 .collapse-text {
@@ -125,6 +170,16 @@ a:hover {
     letter-spacing: 1px;
 }
 
+.sm-filler {
+    background:url("../assets/images/sm-filler.jpg");
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
 /*---------------------------------------------------------Footer*/
 
 .wh-community {
@@ -132,7 +187,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 200px;
+    max-height: 50px;
     margin-bottom: 60px;
 }
 
@@ -141,7 +196,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 200px;
+    max-height: 50px;
     margin-bottom: 60px;
 }
 
@@ -150,7 +205,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 200px;
+    max-height: 50px;
     margin-bottom: 60px;
 }
 
@@ -159,14 +214,30 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 200px;
+    max-height: 50px;
     margin-bottom: 60px;
 }
 
-.facebook {}
+.footer-logo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
 
-.twitter {}
+.social-container {
+    text-align: center;
+}
 
-.youtube {}
+.social {
+    color: #fafafa;
+    font-size: 20px;
+    margin: 20px;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
 
-.insta {}
+.social-container li a i:hover {
+    color: #575757;
+}
