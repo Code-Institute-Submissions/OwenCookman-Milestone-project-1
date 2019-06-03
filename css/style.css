@@ -204,6 +204,22 @@ a:hover {
     margin-bottom: 60px;
 }
 
+.footer-description {
+    font-family: "teko", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .footer-description {
+        display: none;
+    }
+}
+
+
 .footer-text {
     font-family: "teko", sans-serif;
     text-align: center;
