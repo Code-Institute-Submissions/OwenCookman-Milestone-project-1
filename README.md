@@ -18,8 +18,15 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 ------------------------------------------------------------User Stories
 
-As a user who is interested in collectiong the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
-on where to start and which faction interests me the most
+As a user who is interested in collecting the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
+on where to start and which faction interests me the most. I arrive at the index.html page and watch the video at the top of the screen to gain some insight
+and interest in the setting, I then scroll down and click the downwards chevron which opens up some introductory text as well as text that describes the 
+different aspects of the hobby. I then click the upwards pointing chevron so that the paragraphs collapse away again. Below this are four interesting images
+that depict different factions of the game, clicking on each opens up information about each factions background. Underneath the images is a piece of text
+which says "sign up to our newsletter" and below that is an envelope icon, clicking this opens up a prompt to enter my email address which closes after I 
+have entered it. further down the page are four more images that are titled and below them is a description of what I can find on each website, further 
+below that are icons that take me to games workshops different social media platforms.
+
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
