@@ -16,6 +16,11 @@
     -o-background-size: cover;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /*---------------------------------------------------------Icons*/
 
 .icon-container {
@@ -147,7 +152,25 @@ a:hover {
 
 /*---------------------------------------------------------Faction images*/
 
+.faction-image {
+    max-height: 300px;
+    margin: 0 auto;
+}
 
+.faction-image-eldar {
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+@media (min-width:768px) {
+    .mobile-faction {
+        display:none;
+    }
+}
 
 /*---------------------------------------------------------Modals*/
 
