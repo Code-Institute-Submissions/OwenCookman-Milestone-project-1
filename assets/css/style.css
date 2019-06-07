@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
 /*---------------------------------------------------------Background*/
+
 .background {
     background: url("../images/background.jpg");
     background-position: center;
@@ -36,6 +37,7 @@
 }
 
 /*---------------------------------------------------------Header*/
+
 .logo {
     background: url("../images/40klogo.jpg");
     background-position: center;
@@ -85,6 +87,7 @@
 }
 
 /*---------------------------------------------------------Introductory collapse*/
+
 .intro-collapse {
     font-size: 50px;
     color: #fafafa;
@@ -130,48 +133,21 @@ a:hover {
     text-align: center;
 }
 
+@media (max-width:767px) {
+    .non-mobile-text {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .mobile-collapse {
+        display: none;
+    }
+}
+
 /*---------------------------------------------------------Faction images*/
-.space-marine {
-    background:url("../images/spacemarine.jpg");
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    margin-bottom: 60px;
-}
 
-.chaos-space-marine {
-    background:url("../images/chaosspacemarine.jpg");
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    margin-bottom: 60px;
-}
 
-.ork {
-    background:url("../images/ork.jpg");
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    margin-bottom: 60px;
-}
-
-.asuryani {
-    background:url("../images/eldar.jpg");
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    margin-bottom: 60px;
-}
-
-.faction {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
 
 /*---------------------------------------------------------Modals*/
 
