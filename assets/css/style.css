@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
 /*---------------------------------------------------------Background*/
-
 .background {
-    background: url("../assets/images/background.jpg");
+    background: url("../images/background.jpg");
     background-position: center;
     position: fixed;
     height: 100%;
@@ -37,9 +36,8 @@
 }
 
 /*---------------------------------------------------------Header*/
-
 .logo {
-    background: url("../assets/images/40klogo.jpg");
+    background: url("../images/40klogo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -60,7 +58,7 @@
 }
 
 .replacement {
-    background: url("../assets/images/replacement.jpg");
+    background: url("../images/replacement.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +85,6 @@
 }
 
 /*---------------------------------------------------------Introductory collapse*/
-
 .intro-collapse {
     font-size: 50px;
     color: #fafafa;
@@ -116,7 +113,7 @@ a:hover {
 }
 
 .collapse-filler {
-    background: url("../assets/images/collapse-filler.jpg");
+    background: url("../images/collapse-filler.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -134,10 +131,9 @@ a:hover {
 }
 
 /*---------------------------------------------------------Faction images*/
-
 .space-marine {
-    background: url("../assets/images/spacemarine.jpg");
-    background-position: center;
+    background:url("../images/spacemarine.jpg");
+     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -145,8 +141,8 @@ a:hover {
 }
 
 .chaos-space-marine {
-    background: url("../assets/images/chaosspacemarine.jpg");
-    background-position: center;
+    background:url("../images/chaosspacemarine.jpg");
+     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -154,8 +150,8 @@ a:hover {
 }
 
 .ork {
-    background: url("../assets/images/ork.jpg");
-    background-position: center;
+    background:url("../images/ork.jpg");
+     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -163,8 +159,8 @@ a:hover {
 }
 
 .asuryani {
-    background: url("../assets/images/eldar.jpg");
-    background-position: center;
+    background:url("../images/eldar.jpg");
+     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
@@ -203,7 +199,7 @@ a:hover {
 }
 
 .modal-content {
-    background: url("../assets/images/background.jpg");
+    background: url("../images/background.jpg");
 }
 
 .faction-info {
@@ -239,13 +235,12 @@ a:hover {
 
 /*---------------------------------------------------------Footer*/
 
-.wh-community {
-    background: url("../assets/images/wh-community.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 50px;
-    margin-bottom: 60px;
+.footer-image {
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .footer-description {
@@ -255,6 +250,7 @@ a:hover {
     display: block;
     letter-spacing: 1px;
     font-size: 16px;
+    position: relative;
 }
 
 @media (max-width: 767px) {
@@ -269,33 +265,6 @@ a:hover {
     color: #555555;
     display: block;
     margin-top: 50px;
-}
-
-.gw-home {
-    background: url("../assets/images/gw-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 50px;
-    margin-bottom: 60px;
-}
-
-.fw-home {
-    background: url("../assets/images/fw-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 50px;
-    margin-bottom: 60px;
-}
-
-.bl-home {
-    background: url("../assets/images/bl-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 50px;
-    margin-bottom: 60px;
 }
 
 .footer-logo {
