@@ -91,6 +91,11 @@
     padding-top: 20px;
 }
 
+.intro-anchor {
+    width: 100%;
+    text-align: center;
+}
+
 /*---------------------------------------------------------Introductory collapse*/
 
 .intro-collapse {
