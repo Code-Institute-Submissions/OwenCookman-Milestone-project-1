@@ -170,17 +170,7 @@ a:hover {
 
 .faction-image {
     margin: 0 auto;
-
-}
-
-.left-image {
-    float: left;
-    margin: 10px;
-}
-
-.right-image {
-    float: right;
-    margin: 10px;
+    
 }
 
 /*---------------------------------------------------------Modals*/
