@@ -14,24 +14,27 @@
 <header>
     <div class="background"></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-fixed">
-        <a class="navbar-brand" href="index.html"><span class="header">Warhammer 40,000</span></a>
+        <a class="navbar-brand nm-nav" href="index.html"><span class="header">Warhammer 40,000</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"><span class="header">Home</span><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"><span class="gen-text">Home</span><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#introduction-nav"><span class="header">Introduction</span></a>
+                    <a class="nav-link" href="#introduction-nav"><span class="gen-text">Introduction</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#more-info"><span class="header">More Info</span></a>
+                    <a class="nav-link" href="#more-info"><span class="gen-text">More Info</span></a>
                 </li>
-                 <li class="nav-item dropdown">
+                <li class="nav-item mobile-nav">
+                    <a class="nav-link" href="#faction-nav"><span class="gen-text">Factions</span></a>
+                </li>
+                 <li class="nav-item dropdown nm-nav">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-target="#faction-dropdown">
-          <span class="header">Factions</span>
+          <span class="gen-text">Factions</span>
                 
         </a>
                     <div id="faction-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -168,7 +171,9 @@
         </div>
         </div>
          <!-- faction links mobile -->
+         <a id="faction-nav">
         <div class="row mobile-faction">
+        </a>
             <div class="col-6 col-sm-3">
                 <a href="#spacemarineinfo" class="faction" data-toggle="modal" data-target="#spacemarineinfo"><img class="img-fluid faction-image" src="assets/images/spacemarine.jpg"></img></a>
             </div>
