@@ -88,7 +88,11 @@
     text-transform: uppercase;
     font-family: "teko", sans-serif;
     padding-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 100px;
+}
+
+.tag-line {
+    padding-top: 200px;
 }
 
 .nav-fixed {
@@ -216,6 +220,10 @@ a:hover {
     .non-mobile-faction{
     display:none;
     }
+}
+
+.nm-facton-img {
+    max-height: 800px;
 }
 
 /*---------------------------------------------------------Modals*/
