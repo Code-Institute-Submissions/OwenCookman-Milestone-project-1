@@ -21,6 +21,14 @@
     margin-right: 0;
 }
 
+.gen-text {
+    color: #fafafa;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 /*---------------------------------------------------------Icons*/
 
 .icon-container {
@@ -98,7 +106,7 @@
 .nav-fixed {
     position: fixed;
     z-index: 2;
-    width: 100%;
+     width: 100%;
 }
 
 .nav-anchor {
