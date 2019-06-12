@@ -245,10 +245,11 @@ a:hover {
 
 /*---------------------------------------------------------Faction images*/
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.faction-container {
+    max-height: 180px;
+    margin-bottom: 20px;
 }
+
 
 @media (min-width:768px) {
     .mobile-faction {
@@ -258,6 +259,8 @@ a:hover {
 
 .faction-image {
     margin: 0 auto;
+    display: block;
+    max-height: 100%;
 
 }
 
