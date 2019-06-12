@@ -46,7 +46,7 @@
 }
 
 .icon-container a i:hover {
-    color: #575757;
+    color: #edc25c;
 }
 
 /*---------------------------------------------------------Header*/
@@ -100,12 +100,23 @@
 }
 
 .tag-line {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .nav-fixed {
     position: fixed;
     z-index: 2;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+
 }
 
 @media (min-width: 768px) {
@@ -116,8 +127,9 @@
 
 @media (max-width: 768px) {
     .bg-dark {
-        background-color: transparent!important;
+        background-color: #575757;
     }
+
     .navbar {
         position: absolute;
         display: -ms-flexbox;
@@ -130,12 +142,22 @@
         justify-content: space-between;
         padding: 0;
         left: 75%;
+        top: 20px;
     }
 }
 
 @media (max-width: 767px) {
     .nm-nav-faction {
         display: none;
+    }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 0rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
     }
 }
 
@@ -198,7 +220,7 @@
 }
 
 a:hover {
-    color: #575757;
+    color: #edc25c;
     text-decoration: none;
 }
 
@@ -344,7 +366,6 @@ footer-container {
     display: inline-block;
     max-width: 100%;
     margin: 0 auto;
-    vertical-align: middle;
 }
 
 .footer-description {
