@@ -268,7 +268,7 @@ a:hover {
 /*---------------------------------------------------------Faction images*/
 
 .faction-container {
-    max-height: 180px;
+    max-height: 150px;
     margin-bottom: 20px;
 }
 
@@ -359,7 +359,7 @@ a:hover {
 /*---------------------------------------------------------Footer*/
 
 footer-container {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .footer-image {
