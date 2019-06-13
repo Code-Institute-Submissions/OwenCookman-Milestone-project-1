@@ -282,8 +282,15 @@ a:hover {
 
 /*---------------------------------------------------------Footer*/
 
-footer-container {
-    max-width: 100px;
+.footer-container {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .footer-container {
+        max-width: 90px;
+    }
 }
 
 .footer-description {
