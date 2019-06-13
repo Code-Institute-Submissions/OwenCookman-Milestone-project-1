@@ -108,104 +108,6 @@
     z-index: 2;
 }
 
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-
-}
-
-@media (min-width: 768px) {
-    .nm-navbar {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .bg-dark {
-        background-color: #575757;
-    }
-
-    .navbar {
-        position: absolute;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        padding: 0;
-        left: 70%;
-        top: 20px;
-    }
-}
-
-@media (max-width: 767px) {
-    .nm-nav-faction {
-        display: none;
-    }
-    .navbar-brand {
-        display: inline-block;
-        padding-top: .3125rem;
-        padding-bottom: .3125rem;
-        margin-right: 0rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .mobile-nav-faction {
-        display: none;
-    }
-}
-
-.nav-anchor {
-    width: 100%;
-    text-align: center;
-}
-
-.dropdown-item {
-    display: block;
-    width: 100%;
-    padding: .25rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #212529;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: #343a40;
-    border: 0;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0;
-    border-radius: .25rem;
-}
-
 /*---------------------------------------------------------Introductory collapse*/
 
 .intro-collapse {
@@ -270,6 +172,7 @@ a:hover {
 .faction-container {
     max-height: 150px;
     margin-bottom: 20px;
+    
 }
 
 
@@ -283,6 +186,7 @@ a:hover {
     margin: 0 auto;
     display: block;
     max-height: 100%;
+    object-fit: contain;
 
 }
 
