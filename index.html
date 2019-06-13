@@ -60,7 +60,7 @@
         <div class="container nav-anchor>
             <div class="row">
         <a id="introduction-nav">
-                <h1 class="col header tag-line">In the grim darkness of the far future there is only war!</h1>
+                <h1 class="col header tag-line gap">In the grim darkness of the far future there is only war!</h1>
                 </a>
             </div>
         </div>
@@ -118,9 +118,9 @@
     <section class="container-fluid">
         <div class="row non-mobile-faction">
         <div class="col">
-        <h3 class="header" id="spacemarine-nav">Space Marines</h3>
+        <h3 class="header gap" id="spacemarine-nav">Space Marines</h3>
         <img class="float-left" src="assets/images/spacemarine.jpg"></img>
-         <p class="faction-info float-text">Over ten thousand years of constant warfare has honed Mankind’s military might, for the galaxy is a hostile place and only by force of arms is the Imperium held together. It is an age of war and only the strong and the ruthless can
+         <p class="faction-info">Over ten thousand years of constant warfare has honed Mankind’s military might, for the galaxy is a hostile place and only by force of arms is the Imperium held together. It is an age of war and only the strong and the ruthless can
                         hope to survive. Out amongst the stars there can be no mercy, no weakness and no respite from the unending war for survival.
                     Space Marines are organised into Chapters, each consisting of one thousand battle-brothers and possessed of their own armouries, fighting vehicles, space fleets and towering fortress monasteries. Though there is less than one warrior
                         of the Adeptus Astartes for every planet in the Imperium, it is a testament to their sheer might and heroism that this number is still sufficient to hurl back the enemies of Humanity upon every front. Space Marines are genetically
@@ -130,7 +130,7 @@
         </div>
         <div class="row non-mobile-faction">
         <div class="col">
-        <h3 class="header" id="chaosspacemarine-nav">Chaos Space Marines</h3>
+        <h3 class="header gap" id="chaosspacemarine-nav">Chaos Space Marines</h3>
         <img class="float-right" src="assets/images/chaosspacemarine.jpg"></img>
         <p class="faction-info">As the favoured champions of the Chaos Gods, the Heretic Astartes are blessed with many gifts. They may have profane boons bestowed upon them which grant unnatural strength and resilience, or horrific weapon-mutations that can peel
                         the flesh from a foe with sickening ease. All manner of hideous creatures dwell within the warp, a hellish, roiling dimension in which the greatest passions and fears of mortal creatures are given terrible form. Acts of monstrous
@@ -144,7 +144,7 @@
         </div>
         <div class="row non-mobile-faction">
         <div class="col">
-        <h3 class="header" id="ork-nav">Orks</h3>
+        <h3 class="header gap" id="ork-nav">Orks</h3>
         <img class="float-left" src="assets/images/ork.jpg"></img>
         <p class="faction-info">Mankind is not the only race to walk among the stars. Since they first travelled beyond their own star system, in the early days of the Age of Technology, Mankind has encountered alien races, most of which have proven hostile. While
                         some xenos exist only on a single planet, other civilisations might occupy a star system and there are a few that are widely spread across the great void of the galaxy. It has never been in Man’s nature to share his worlds with
@@ -159,7 +159,7 @@
         </div>
         <div class="row non-mobile-faction">
         <div class="col">
-        <h3 class="header" id="eldar-nav">Asuryani</h3>
+        <h3 class="header" id="eldar-nav gap">Asuryani</h3>
         <img class="float-right" src="assets/images/eldar.jpg"></img>
         <p class="faction-info">The Aeldari are an alien race that once ruled the galaxy. Technologically, militarily and intellectually the Aeldari are as far superior to Humanity as Humanity are to primitive simians. They possess weapons that can extinguish stars,
                         they tread secret paths beyond the bounds of reality, and their towering psychic might allows them to read and weave the strands of fate itself. Yet for all this the Aeldari are but an echo, a faded, splintered remnant of their
@@ -201,7 +201,7 @@
         </div>
     </section>
     <!-- Space marine modal content -->
-    <div class="modal faction-modal" tabindex="-1" role="dialog" id="spacemarineinfo">
+    <div class="modal" tabindex="-1" role="dialog" id="spacemarineinfo">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -222,7 +222,7 @@
         </div>
     </div>
     <!-- Chaos Space marine modal content -->
-    <div class="modal faction-modal" tabindex="-1" role="dialog" id="chaosspacemarineinfo">
+    <div class="modal" tabindex="-1" role="dialog" id="chaosspacemarineinfo">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -246,7 +246,7 @@
         </div>
     </div>
     <!-- Orks modal content -->
-    <div class="modal faction-modal" tabindex="-1" role="dialog" id="orkinfo">
+    <div class="modal" tabindex="-1" role="dialog" id="orkinfo">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -270,7 +270,7 @@
         </div>
     </div>
     <!-- Asuryani modal content -->
-    <div class="modal faction-modal" tabindex="-1" role="dialog" id="asuryaniinfo">
+    <div class="modal" tabindex="-1" role="dialog" id="asuryaniinfo">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -301,12 +301,14 @@
         </button>
                 </div>
                 <div class="modal-body">
-                    <p class="header">Please enter your email below</p>
-                    <form action="#" method="post">
-                        <label for="email"><span class="newsletter-callout">Email</span></label>
-                        <input type="email" id="email" placeholder="email" name="email">
-                        <input type="submit " value="Continue">
-                    </form>
+                    <p class="gen-text">Please enter your email below</p>
+                    <form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-dark"><span class="gen-text">Submit</span></button>
+</form>
                 </div>
             </div>
         </div>
@@ -317,19 +319,26 @@
 </body>
 
 <footer>
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+<p class="header footer-intro">below are some links to our other pages</p>
+</div>
+</div>
+</div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 col-sm-3 footer-container">
-                <a target="_blank" href="https://www.warhammer-community.com/"><img class="img-fluid footer-image" src="assets/images/wh-community.jpg"></img></a>
+                <a target="_blank" href="https://www.warhammer-community.com/"><img class="img-fluid" src="assets/images/wh-community.jpg"></img></a>
             </div>
             <div class="col-6 col-sm-3 footer-container">
-                <a target="_blank" href="#"><img class="img-fluid footer-image" src="assets/images/gw-logo.jpg"></img></a>
+                <a target="_blank" href="#"><img class="img-fluid" src="assets/images/gw-logo.jpg"></img></a>
             </div>
             <div class="col-6 col-sm-3 footer-container">
-                <a target="_blank" href="#"><img class="img-fluid footer-image" src="assets/images/fw-logo.jpg"></img></a>
+                <a target="_blank" href="#"><img class="img-fluid" src="assets/images/fw-logo.jpg"></img></a>
             </div>
             <div class="col-6 col-sm-3 footer-container">
-                <a targer="_blank" href="#"><img class="img-fluid footer-image" src="assets/images/bl-logo.jpg"></img></a>
+                <a targer="_blank" href="#"><img class="img-fluid" src="assets/images/bl-logo.jpg"></img></a>
             </div>
         </div>
     </div>
@@ -341,10 +350,10 @@
             <div class="col-6 col-sm-3">
                 <p class="footer-description">Head over to the Games Workshop website to view the whole product range!</p>
             </div>
-            <div class="col-6 col-sm-3 ">
+            <div class="col-6 col-sm-3">
                 <p class="footer-description">The Forge World website is where you will find our specialist games, huge specialist miniatures and rules to use them in your battles.</p>
             </div>
-            <div class="col-6 col-sm-3 ">
+            <div class="col-6 col-sm-3">
                 <p class="footer-description">Black Library is where you will find all of our novels and audio dramas written by our very own team of authors from the Warhammer 40,000 universe and beyond.</p>
             </div>
         </div>
