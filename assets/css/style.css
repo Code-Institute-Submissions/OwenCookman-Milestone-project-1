@@ -136,6 +136,12 @@
     color: #edc25c;
 }
 
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #a88f52;
+}
+
 @media (max-width: 767px) {
     .faction-nav-nm {
         display: none;
