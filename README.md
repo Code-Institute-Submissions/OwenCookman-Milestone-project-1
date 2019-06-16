@@ -32,13 +32,28 @@ below that are icons that take me to games workshops different social media plat
 armies are capable of so I choose to click on the Games workshop image, this opens up a new tab in my browser and loads the web page.
 
 [####fiction reader user type]
-As a user who is interested in reading the warhammer 40,000 fiction, I want to learn more about the background that the universe is set in and who 
+As a user who is interested in reading the warhammer 40,000 fiction, I want to learn more about the background that the universe is set in and who lives
+within that universe. I arrive at the index.html page and watch the video at the top of the screen to gain some insight in to the background and some of 
+the characters that are there, this also gives me a good idea if the setting is something that interests me. Scrolling further down the page I find some
+more information that sets the scene of the warhammer 40,000 universe and gives me some insight in to how dark the setting is. Scrolling further down the
+page 
 
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-Features
+[###Features]
+
+[#### Navbar]
+
+The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were re ordered and an additional one 
+was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page.
+
+[#### Introduction Video]
+
+Using a Bootstrap embed this video was taken from Warhammer TV, games workshops youtube channel, it is placed at the top of the page as a way to catch the
+users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
