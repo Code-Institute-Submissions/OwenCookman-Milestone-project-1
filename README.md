@@ -20,6 +20,7 @@ that they are most interested in.
 
 [###User Stories]
 
+[####collector/player user type]
 As a user who is interested in collecting the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
 on where to start and which faction interests me the most. I arrive at the index.html page and watch the video at the top of the screen to gain some insight
 and interest in the setting, I then scroll down and click the downwards chevron which opens up some introductory text as well as text that describes the 
@@ -28,7 +29,10 @@ that depict different factions of the game, clicking on each opens up informatio
 which says "sign up to our newsletter" and below that is an envelope icon, clicking this opens up a prompt to enter my email address which closes after I 
 have entered it. further down the page are four more images that are titled and below them is a description of what I can find on each website, further 
 below that are icons that take me to games workshops different social media platforms, I find that I want to look at miniatures and read in to what the
-armies are capable of so I choose to click on the Games workshop image, this opens up a new tab in my browser and loads the web page. 
+armies are capable of so I choose to click on the Games workshop image, this opens up a new tab in my browser and loads the web page.
+
+[####fiction reader user type]
+As a user who is interested in reading the warhammer 40,000 fiction, I want to learn more about the background that the universe is set in and who 
 
 
 As a user type, I want to perform an action, so that I can achieve a goal.
