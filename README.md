@@ -54,6 +54,12 @@ was added to match the layout of the page. The navbar is fixed so that a user ca
 Using a Bootstrap embed this video was taken from Warhammer TV, games workshops youtube channel, it is placed at the top of the page as a way to catch the
 users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
 
+[#### Introduction text]
+
+As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby itself.
+On smaller screens this information is placed within a collapse which was taken from bootstrap so there isn't too much information on the screen for a user
+and the text can be collapsed away once finished with.
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
