@@ -1,4 +1,4 @@
-------------------------------ocookman-ucfd-project1 (Warhammer 40,000 introduction)----------------------------------------------------------------------
+[#Warhammer 40,000]
 
 The objective of this webpage is to provide an introduction to the Warhammer 40,000 universe along with an introduction to some of the original factions.
 As the warhammer 40,000 universe has a huge rich background of lore and factions it can be quite daunting for new players, collectors and readers to pick 
@@ -7,16 +7,18 @@ The idea behind this website is to create an introduction for people interested 
 providing the means to gain access to any further information that they might want, this will help to drive traffic towards games workshop's other websites 
 as well as social media pages and in turn drive up sales.
 
-------------------------------------------------------------UX
+[###UX]
 
 The website is aimed at people who have an interest in the Warhammer 40,000 universe weather it is collecting, painting and/or playing the various games set 
-in the universe or the novels and background itself which interests them, the universe is a huge and dauntig thing to get in to and it may be difficult for
+in the universe or the novels and background itself which interests them, the universe is a huge and daunting thing to get in to and it may be difficult for
 new players to find where to start.
 This website would be used as an introduction to the Warhammer 40,000 universe as well as an introduction to some of the classic factions providing a portal
-to the various Games workshop websites so users can easily find their way to the content that they are looking for. 
+to the various Games workshop websites so users can easily find their way to the content that they are looking for.
+Without going too deeply in to the sub factions that belong to the many factions of the Warhammer 40,000 universe this project provides introductory
+information 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-------------------------------------------------------------User Stories
+[###User Stories]
 
 As a user who is interested in collecting the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
 on where to start and which faction interests me the most. I arrive at the index.html page and watch the video at the top of the screen to gain some insight
