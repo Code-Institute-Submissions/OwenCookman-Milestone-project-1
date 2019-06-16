@@ -207,6 +207,14 @@ a:hover {
     text-align: center;
 }
 
+.click-info {
+    color: #edc25c;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    padding-bottom: 30px;
+}
+
 @media (max-width:767px) {
     .non-mobile-text {
         display: none;
