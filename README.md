@@ -15,8 +15,8 @@ new players to find where to start.
 This website would be used as an introduction to the Warhammer 40,000 universe as well as an introduction to some of the classic factions providing a portal
 to the various Games workshop websites so users can easily find their way to the content that they are looking for.
 Without going too deeply in to the sub factions that belong to the many factions of the Warhammer 40,000 universe this project provides introductory
-information 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+information to give users an idea of the background without overloading them with infromation but also provides them with the means to find the information
+that they are most interested in.
 
 [###User Stories]
 
@@ -27,7 +27,8 @@ different aspects of the hobby. I then click the upwards pointing chevron so tha
 that depict different factions of the game, clicking on each opens up information about each factions background. Underneath the images is a piece of text
 which says "sign up to our newsletter" and below that is an envelope icon, clicking this opens up a prompt to enter my email address which closes after I 
 have entered it. further down the page are four more images that are titled and below them is a description of what I can find on each website, further 
-below that are icons that take me to games workshops different social media platforms.
+below that are icons that take me to games workshops different social media platforms, I find that I want to look at miniatures and read in to what the
+armies are capable of so I choose to click on the Games workshop image, this opens up a new tab in my browser and loads the web page. 
 
 
 As a user type, I want to perform an action, so that I can achieve a goal.
