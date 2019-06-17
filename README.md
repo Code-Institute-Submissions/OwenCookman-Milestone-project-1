@@ -1,4 +1,4 @@
-[#Warhammer 40,000]
+# Warhammer 40,000
 
 The objective of this webpage is to provide an introduction to the Warhammer 40,000 universe along with an introduction to some of the original factions.
 As the warhammer 40,000 universe has a huge rich background of lore and factions it can be quite daunting for new players, collectors and readers to pick 
@@ -7,7 +7,7 @@ The idea behind this website is to create an introduction for people interested 
 providing the means to gain access to any further information that they might want, this will help to drive traffic towards games workshop's other websites 
 as well as social media pages and in turn drive up sales.
 
-[###UX]
+### UX
 
 The website is aimed at people who have an interest in the Warhammer 40,000 universe weather it is collecting, painting and/or playing the various games set 
 in the universe or the novels and background itself which interests them, the universe is a huge and daunting thing to get in to and it may be difficult for
@@ -18,43 +18,28 @@ Without going too deeply in to the sub factions that belong to the many factions
 information to give users an idea of the background without overloading them with infromation but also provides them with the means to find the information
 that they are most interested in.
 
-[###User Stories]
+### User Stories
 
-[####collector/player user type]
-As a user who is interested in collecting the models and playing the game, I want to gain insight in to some of the factions so that I can make a decision
-on where to start and which faction interests me the most. I arrive at the index.html page and watch the video at the top of the screen to gain some insight
-and interest in the setting, I then scroll down and click the downwards chevron which opens up some introductory text as well as text that describes the 
-different aspects of the hobby. I then click the upwards pointing chevron so that the paragraphs collapse away again. Below this are four interesting images
-that depict different factions of the game, clicking on each opens up information about each factions background. Underneath the images is a piece of text
-which says "sign up to our newsletter" and below that is an envelope icon, clicking this opens up a prompt to enter my email address which closes after I 
-have entered it. further down the page are four more images that are titled and below them is a description of what I can find on each website, further 
-below that are icons that take me to games workshops different social media platforms, I find that I want to look at miniatures and read in to what the
-armies are capable of so I choose to click on the Games workshop image, this opens up a new tab in my browser and loads the web page.
+#### collector/player user type
+As a collector, I want to find information on the different factions, so that I can make a decision on which models to buy.
 
-[####fiction reader user type]
-As a user who is interested in reading the warhammer 40,000 fiction, I want to learn more about the background that the universe is set in and who lives
-within that universe. I arrive at the index.html page and watch the video at the top of the screen to gain some insight in to the background and some of 
-the characters that are there, this also gives me a good idea if the setting is something that interests me. Scrolling further down the page I find some
-more information that sets the scene of the warhammer 40,000 universe and gives me some insight in to how dark the setting is. Scrolling further down the
-page 
+#### fiction reader user type
+As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.
 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Features
 
-[###Features]
-
-[#### Navbar]
+#### Navbar
 
 The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were re ordered and an additional one 
 was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page.
 
-[#### Introduction Video]
+#### Introduction Video
 
 Using a Bootstrap embed this video was taken from Warhammer TV, games workshops youtube channel, it is placed at the top of the page as a way to catch the
 users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
 
-[#### Introduction text]
+#### Introduction text
 
 As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby itself.
 On smaller screens this information is placed within a collapse which was taken from bootstrap so there isn't too much information on the screen for a user
