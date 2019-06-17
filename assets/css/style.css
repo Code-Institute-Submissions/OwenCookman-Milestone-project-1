@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
-/*---------------------------------------------------------Background*/
+/*Background*/
 
 .background {
     background: url("../images/background.jpg");
@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-/*---------------------------------------------------------Icons*/
+/*Icons*/
 
 .icon-container {
     text-align: center;
@@ -49,7 +49,7 @@
     color: #edc25c;
 }
 
-/*---------------------------------------------------------Header*/
+/*Header*/
 
 .logo {
     background: url("../images/40klogo.jpg");
@@ -101,7 +101,9 @@
 .tag-line {
     padding-top: 150px;
 }
-/*-------------------------------------Navbar*/
+
+/*Navbar*/
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -160,7 +162,7 @@
     
 }
 
-/*---------------------------------------------------------Introductory collapse*/
+/*Introductory collapse*/
 
 .intro-collapse {
     font-size: 50px;
@@ -227,14 +229,7 @@ a:hover {
     }
 }
 
-/*---------------------------------------------------------Faction images*/
-
-.faction-container {
-    max-height: 150px;
-    margin-bottom: 20px;
-
-}
-
+/*Faction images*/
 
 @media (min-width:768px) {
     .mobile-faction {
@@ -254,7 +249,7 @@ a:hover {
     }
 }
 
-/*---------------------------------------------------------Modals*/
+/*Modals*/
 
 .close {
     float: right;
@@ -314,7 +309,7 @@ a:hover {
     -o-transition: all 0.15s ease-in-out;
 }
 
-/*---------------------------------------------------------Footer*/
+/*Footer*/
 
 .footer-container {
     max-width: 150px;
