@@ -110,6 +110,10 @@ html {
 
 /*Navbar*/
 
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.6)!important;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
