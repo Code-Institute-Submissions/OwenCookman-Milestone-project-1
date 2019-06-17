@@ -29,7 +29,7 @@ html {
 
 .gen-text {
     color: #fafafa;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     text-align: center;
@@ -100,7 +100,7 @@ html {
     color: #fafafa;
     text-align: center;
     text-transform: uppercase;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     padding-bottom: 30px;
 }
 
@@ -196,7 +196,7 @@ a:hover {
 
 .collapse-header {
     color: #fafafa;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -213,7 +213,7 @@ a:hover {
 
 .collapse-text {
     color: #fafafa;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     text-align: center;
@@ -223,7 +223,7 @@ a:hover {
     color: #edc25c;
     text-align: center;
     text-transform: uppercase;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     padding-bottom: 30px;
 }
 
@@ -291,7 +291,7 @@ a:hover {
 
 .faction-info {
     color: #fafafa;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -308,7 +308,7 @@ a:hover {
     color: #fafafa;
     text-align: center;
     text-transform: uppercase;
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
 }
 
 .newsletter-icon {
@@ -340,7 +340,7 @@ a:hover {
 }
 
 .footer-description {
-    font-family: "teko", sans-serif;
+    font-family: "Teko", sans-serif;
     text-align: center;
     color: #fafafa;
     display: block;
