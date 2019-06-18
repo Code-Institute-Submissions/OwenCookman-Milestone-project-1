@@ -1,3 +1,4 @@
+![Warhammer 40,000 Logo](assets/images/40klogo.jpg)
 # Warhammer 40,000
 
 The objective of this webpage is to provide an introduction to the Warhammer 40,000 universe along with an introduction to some of the original factions.
@@ -30,10 +31,10 @@ As a reader of science fiction, I want to discover more about the setting, so th
 
 Below are my first drafted ideas of how the page would look and work, these were originally made using WireframeSketcher.
 
-- ![Home Page on Desktop](assets/wireframes/desktophome.png)
-- ![Home Page on Mobile](assets/wireframes/mobilehome.png)
-- ![Open Modal](assets/wireframes/modals.png)
-- ![Open Collapse on Mobile](assets/wireframes/opencollapse.png)
+- [Home Page on Desktop](assets/wireframes/desktophome.png)
+- [Home Page on Mobile](assets/wireframes/mobilehome.png)
+- [Open Modal](assets/wireframes/modals.png)
+- [Open Collapse on Mobile](assets/wireframes/opencollapse.png)
 
 ### Features
 
