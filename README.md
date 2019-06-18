@@ -26,24 +26,53 @@ As a collector, I want to find information on the different factions, so that I 
 #### fiction reader user type
 As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.
 
+### Wireframes
+
+Below are my first drafted ideas of how the page would look and work, these were originally made using WireframeSketcher.
+
+- [Home Page on Desktop] (assets/wireframes/desktophome.png)
 
 ### Features
 
 #### Navbar
 
-The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were re ordered and an additional one 
-was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page.
+The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were reordered and an additional one 
+was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page and is styled to 
+be opaque so that it doesn't get in the way.
 
 #### Introduction Video
 
-Using a Bootstrap embed this video was taken from Warhammer TV, games workshops youtube channel, it is placed at the top of the page as a way to catch the
+Using a Bootstrap embed this video was taken from Warhammer TV, Games Workshop's youtube channel, it is placed at the top of the page as a way to catch the
 users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
 
-#### Introduction text
+#### Introduction Text
 
-As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby itself.
-On smaller screens this information is placed within a collapse which was taken from bootstrap so there isn't too much information on the screen for a user
-and the text can be collapsed away once finished with.
+As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby 
+itself.
+On smaller screens this information is placed within a collapse, which was taken from bootstrap and the button to open and close it was taken from
+font Awesome, so there isn't too much information on the screen for a user and the text can be collapsed away once finished with.
+
+#### Factions
+
+To provide an introduction to some of the factions in the Warhammer 40,000 universe there are four images, one of a Space Marine, Chaos Space Marine, Ork
+and Asuryani, which have been included as they are some of the original factions for the game and it also gives users an idea of how these factions look.
+The images have been made responsive so that on mobile they stack one on top of the other to keep the characters standing apart, allowing them to be larger
+and draw attention to themselves seperate from the others.
+On larger screens these images are accompanied by text that gives some background information on each faction, their themes and where they stand in the 
+universe.
+
+##### Modals
+On smaller screens the faction information has been made responsive and will no longer display on the page, instead selecting the image for each faction 
+will open up a modal which has been taken from Bootstrap and styled with CSS, this allows the text to be hidden away and only displayed when the user
+wishes to read it rather than taking up too much space on the screen.
+
+#### Newsletter Sign Up
+
+Appearing at the bottom on all screen sizes is a call to sign up to a Newsletter, selecting the letter image which was taken from Font Awesome will open up
+a modal which was taken from Bootstrap and styled with CSS, Within this modal is a form that was also taken from Bootstrap prompting the user to enter their
+email address. The email has been set to required so pressing the submit button without entering anything will display a error message, as will entering an
+invalid email address.
+For the purposes of this project the collected inforation is not saved anywhere.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
