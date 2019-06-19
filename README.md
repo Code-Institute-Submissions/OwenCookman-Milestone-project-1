@@ -136,7 +136,21 @@ For the purposes of this project the collected inforation is not saved anywhere.
     * (Mobile) Scroll down to the other website links
 7. Decide that the Black library website suits your needs as a user interested in science fiction and select that website
 
+#### New to Games Workshop user type
+**As someone who has never heard of Warhammer 40,000 before, I want to find out about the universe in easy to understand bitesize chunks, so that I can decideif this is something that interests me.**
 
+1. Arrive at home page
+2. Watch YouTube video to get an idea of the setting
+3. Scroll down to the introduction and read about the setting and hobby
+    * (Mobile) Scroll to the collapse button and open the collapse
+    * (Mobile) Read about the setting and hobby
+    * (Mobile) Close the collapse with the button at the bottom of the text
+4. Scroll to the faction section
+5. Read information on each faction
+    * (Mobile) Select an image to open the modal and read the faction information
+6. scroll further down to the other website links and read the information there
+    * (Mobile) Scroll down to the other website links
+7. Decide which website suits what you are looking for and select that website
 
 
 
