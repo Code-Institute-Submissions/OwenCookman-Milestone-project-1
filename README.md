@@ -308,6 +308,44 @@ GitHub pages was used to deploy this project using the following steps:
 5. change the durectory to the location that you want to create the cloned directory
 6. type git clone and paste the URL you copied from GitHub
 
+## Credits
 
-Acknowledgements
-I received inspiration for this project from X
+### Content
+
+The text used in the introductory collapse and faction modals were copied from the [official Warhammer 40,000](www.warhammer40000.com) page
+
+### Media
+
+The [40k Logo](assets/images/40klogo.jpg) was taken from [The marysue](www.themarysue.com) news page
+The [background](assets/images/background.jpg) image for the page and modals was taken from [hadi palmex](www.hadi.palmex.co)
+The [Space Marine](assets/images/spacemarine.jpg) image was taken from the [official Warhammer 40,000](www.warhammer40000.com) page
+The [Chaos Space Marine](assets/images/chaosspacemarine.jpg) image was taken from the [Eternal Crusade](www.eternalcrusade.com) website
+The [Asuryani](assets/images/eldar.jpg) image was taken from [mikemyler.com](www.mikemyler.com)
+The [Ork](assets/images/ork.jpg) image was taken from [Pinterest](www.pinterest.com) (originl art by albe75.deviantart.com on deviantART)
+The [collapse filler](assets/images/collapse-filler.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
+The [Games Workshop logo](assets/images/gw-logo.jpg) was taken from the [Games Workshop wiki](https://en.wikipedia.org/wiki/Games_Workshop) page
+The [Black Library logo](assets/images/bl-logo.jpg) was taken from the [Warhammer Community](www.warhammer-community.com) page
+The [Warhammer Community logo](assets/images/wh-community.jpg) was taken from [40k RPG Tools](www.40krpgtools.com)
+The [Forgeworld logo](assets/images/fw-logo.jpg) was taken from the [Spikey Bits](www.spikeybits.com) web page 
+The [Youtube video replacement](assets/images/replacement.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
+The Youtube Video was taken from the [Warhammer Tv](https://www.youtube.com/user/GamesWorkshopWNT) YouTube channel
+
+### Code
+
+Code was taken from the Bootstrap library and modified to fit its needs for the below:
+
+- [Navbar](https://getbootstrap.com/docs/4.3/components/navs/) for a responsive Navbar
+- [Embed](https://getbootstrap.com/docs/4.3/utilities/embed/) for the YouTube video
+- [Collapse](https://getbootstrap.com/docs/4.3/components/collapse/) for the collapse used in making the introductory text responsive
+- [Modal](https://getbootstrap.com/docs/4.3/components/modal/) for the faction modals and the modal that contains the Newsletter sign up form
+- [Form](https://getbootstrap.com/docs/4.3/components/forms/) used for the Newsletter sign up
+
+## Acknowledgements
+I received inspiration for this project from my own experience of both discovering and introducing people to the Warhammer 40,000 universe
+My Mentor Simen Daehlin who has encoraged me to work outside of my comfort zone and helped me see lines of code with fresh eyes
+Anna Greaves for her excellent tutorials and helpful nature
+The other Code Institute Students who helped me with suggestions and testing
+My friends and family who also took part in testing.
+
+
+*This project was created for educational purposes only*
