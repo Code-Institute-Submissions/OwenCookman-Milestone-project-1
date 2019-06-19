@@ -230,6 +230,35 @@ For the purposes of this project the collected inforation is not saved anywhere.
 3. select Responsive from the toolbar menu
 4. Move the margin in and out to see that the introduction text is replaced by a downward chevron at 767 px
 
+#### Faction Images/Information
+
+** Desktop **
+1. Go to index.html
+2. Scroll down to the faction section starting with Space Marines
+3. Check that the space Marine image is floating to the right of its associated text and that all other images are floating in an alternating pattern
+4. Ensure all text is appearing as styled and that the images are the correct sized
+
+** Mobile **
+1. Go to index.html
+2. Scroll down to the faction section ensuring all four images are seperate and stand apart from each other starting with the Space Marine image
+3. Select the Space Marine and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
+4. Select off of the modal or select the cross close icon in the top right corner
+3. Select the Chaos Space Marine and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
+4. Select off of the modal or select the cross close icon in the top right corner
+3. Select the Ork and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
+4. Select off of the modal or select the cross close icon in the top right corner
+3. Select the Asuryani and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
+4. Select off of the modal or select the cross close icon in the top right corner
+
+** Responsiveness **
+
+1. Using developer tools (Right click on web page and select Inspect) 
+2. Press Ctrl+Shift+M to set the screen to be responsive
+3. select Responsive from the toolbar menu
+4. Move the margin in and out to see that the faction information dissapears and only the images remain at 767 px
+
+
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
