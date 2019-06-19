@@ -257,6 +257,21 @@ For the purposes of this project the collected inforation is not saved anywhere.
 3. select Responsive from the toolbar menu
 4. Move the margin in and out to see that the faction information dissapears and only the images remain at 767 px
 
+#### Newsletter Sign Up
+
+** All Devices **
+
+1. Go to index.html
+2. Scroll down to the Sign up to our newsletter! section
+3. Select the letter icon
+4. See that a modal opens up containing an email submission form
+5. Select submit without entering an email and see that an error message appears
+6. Enter an invalid email
+7. Select submit and see that another error message appears
+7. Enter a valid email
+8. Select submit and see that the modal closes
+(No information is stored through this process)
+
 
 
 Testing
