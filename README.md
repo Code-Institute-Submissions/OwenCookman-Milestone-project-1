@@ -161,7 +161,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
     * (Mobile) Scroll down to the other website links
 10. Decide which website suits what you are looking for and select that website
 
-### Features Testing
+### Features Manual Testing
 
 #### Navbar
 
@@ -193,8 +193,23 @@ For the purposes of this project the collected inforation is not saved anywhere.
 3. Check different sized mobile devices and see that the Burger icon appears in the top right of the Navbar
 4. Check Different sized tablet devices and see that on smaller tablets the Burger icon is displayed while in screen elements are displayed like desktop and larger tablets do not have the Burger icon
 5. Set the screen as responsive and drag the margin in and out to see where Media queries switch over (max 767px / min 768 px) and the Navbar Burger Icon appears (max 991px)
- 
- 
+
+#### Youtube video
+
+** Desktop **
+1. Go to home page
+2. See that the Youtube video is displayed
+3. Select play to ensure the video is working correctly
+
+** Mobile **
+1. Go to home page
+2. See that an image has taken place of the Youtube video
+
+** Responsiveness **
+1. Using developer tools (Right click on web page and select Inspect) 
+2. Press Ctrl+Shift+M to set the screen to be responsive
+3. select Responsive from the toolbar menu
+4. Move the margin in and out to see that the YouTube video is replaced by an image at 767 px
 
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
