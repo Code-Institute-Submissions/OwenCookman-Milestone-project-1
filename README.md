@@ -230,7 +230,7 @@ invalid email address.
 3. Select Responsive from the toolbar menu
 4. Move the margin in and out to see that the introduction text is replaced by a downward chevron at 767 px
 
-#### Faction Images/Information
+### Faction Images/Information
 
 **Desktop**
 1. Go to index.html
@@ -257,7 +257,7 @@ invalid email address.
 3. Select Responsive from the toolbar menu
 4. Move the margin in and out to see that the faction information dissapears and only the images remain at 767 px
 
-#### Newsletter Sign Up
+### Newsletter Sign Up
 
 **AllDevices**
 
