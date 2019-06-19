@@ -92,19 +92,35 @@ For the purposes of this project the collected inforation is not saved anywhere.
 
 - This project uses **HTML** and **CSS** programming languages
 - [**Cloud9**](https://c9.io) was used as the development IDE
-- [BootstrapCDN](https://getbootstrap.com/) was used to make the layout and responsiveness of the page easier
-- BootstrapCDN's [FontAwesome](https://fontawesome.com/) was also utilised to provide icons for things such as social media, the Newsletter icon and the collapse icon
-- [Bootstrap's Library](https://getbootstrap.com/) was used to provide pieces of code that formed the basis of the collapse, modals, Newsletter sign up form and the embed for the iframe which holds the YouTube video
-- [Google Fonts](https://fonts.google.com/) was used to provide the font "Teko" throughout the page
-- [JQuery](https://jquery.com/) was used to provide the Javascript code required for the collapse, responsive Navbar and modals
-- [Popper.js](https://popper.js.org/) was also used for the responsive navbar
-- this projects wireframes were created on [WireFrameSketcher](https://wireframesketcher.com/)
-- The HTML and CSS code were validated using the [W3C Markup Validation Service](https://validator.w3.org/) website
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [**BootstrapCDN**](https://getbootstrap.com/) was used to make the layout and responsiveness of the page easier
+- BootstrapCDN's [**FontAwesome**](https://fontawesome.com/) was also utilised to provide icons for things such as social media, the Newsletter icon and the collapse icon
+- [**Bootstrap's Library**](https://getbootstrap.com/) was used to provide pieces of code that formed the basis of the collapse, modals, Newsletter sign up form and the embed for the iframe which holds the YouTube video
+- [**Google Fonts**](https://fonts.google.com/) was used to provide the font "Teko" throughout the page
+- [**JQuery**](https://jquery.com/) was used to provide the Javascript code required for the collapse, responsive Navbar and modals
+- [**Popper.js**](https://popper.js.org/) was also used for the responsive navbar
+- this projects wireframes were created on [**WireFrameSketcher**](https://wireframesketcher.com/)
+- The HTML and CSS code were validated using the [**W3C Markup Validation Service**](https://validator.w3.org/) website
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+## Testing
+
+### User Stories Tested
+
+#### Collector/Player user type
+**As a collector, I want to find information on the different factions, so that I can make a decision on which models to buy.**
+
+1. Arrive at home page
+2. Scroll through information to the faction images
+3. Read information on each faction
+    * (mobile) Select an image to open the modal and read the faction information
+4. scroll further down to the other website links and read the information there
+    * (mobile) Scroll down to the other website links
+5. Select www.games-workshop.com to visit to find out more information on one of the four specific factions or discover the other factions
+
+
+
+
+
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
