@@ -277,52 +277,37 @@ For the purposes of this project the collected inforation is not saved anywhere.
 - The **HTML** code was validated using [**W3C Markup Validation**](https://validator.w3.org/)
 - The **CSS** code was validated using [**W3C CSS Validation**](https://jigsaw.w3.org/css-validator/)
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Further Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The page was shared with Friends, Family and other Students to gain any feedback on any issues found.
+- Page was found to be overflowing and causing a left-right scroll bar to appear, this was fixed by applying 0 to margin-left and margin-right to .row
+- Some users found that the faction images would appear larger than they should on their mobile devices, CSS styling was removed in favour of the Bootstrap grid system
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Deployment
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The Cloud9 IDE was used to develop this project, using the built in function of Cloud9 it was comitted to git and pushed to GitHub to create and maintain a repository.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+GitHub pages was used to deploy this project using the following steps:
 
-### Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+1. Login to GitHub
+2. Select the Repositories tab
+3. Select the Milestone-project-1 repository
+4. From the options near the top of the page select Settings
+5. Scroll down to the section titled GitHub Pages
+6. Under Source select the drop down menu and select Master Branch
+7. The page will automatically refresh and the page is now deployed
+8. Scroll back down to the GitHub Pages section to find the URL
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+**To deploy the page locally**
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Use [this](https://github.com/OwenCookman/Milestone-project-1) link to go to the repository
+2. Above the repository files clikc the green button that says Clone or download
+3. Select the copy to clip board image next to the URL to copy the URL to your clip board
+4. Using your local IDE open a Git terminal
+5. change the durectory to the location that you want to create the cloned directory
+6. type git clone and paste the URL you copied from GitHub
 
-Credits---------------------------------------------------------------------------------------------------------------------------------------------
-
------------------------------------------Content
-The text used in the introductory collapse and faction modals were copied from www.warhammer40000.com
-
------------------------------------------Media
-The "40klogo.jpg" image was taken from www.themarysue.com
-The background image for the page and modals was taken from www.hadi.palmex.co
-The "spacemarine.jpg" image was taken from www.warhammer40000.com
-The "chaosspacemarine.jpg" image was taken from www.eternalcrusade.com
-The "eldar.jpg" image was taken from www.mikemyler.com
-The "ork.jpg" image was taken from www.pinterest.com (originl art by albe75.deviantart.com on deviantART)
-The "collapse-filler.jpg" image was taken from www.warhammer-community.com
-The "gw-logo.jpg" image was taken from the games workshop wiki page (https://en.wikipedia.org/wiki/Games_Workshop)
-The "bl-logo.jpg" image was taken from www.warhammer-community.com
-The "wh-community.jpg" image was taken from www.40krpgtools.com
-The "fw-logo.jpg" image was taken from www.spikeybits.com 
-The "replacement.jpg" image was taken from www.warhammer-community.com
 
 Acknowledgements
 I received inspiration for this project from X
