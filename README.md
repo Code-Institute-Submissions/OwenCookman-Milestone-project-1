@@ -44,49 +44,49 @@ Below are my first drafted ideas of how the page would look and work, these were
 
 ### Navbar
 
-The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were reordered and an additional one 
-was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page and is styled to 
-be opaque so that it doesn't get in the way.
+The **Navbar** used in this project was taken from **Bootstraps library** and then styled with **CSS**, some of the **list items** were reordered and an additional one 
+was added to match the layout of the page. The **navbar** is fixed so that a user can move to any part of the page from anywhere on the page and is styled to 
+be **opaque** so that it doesn't get in the way.
 
 ### Introduction Video
 
-Using a Bootstrap embed this video was taken from Warhammer TV, Games Workshop's youtube channel, it is placed at the top of the page as a way to catch the
+Using a Bootstrap **embed** this video was taken from [Warhammer TV](https://www.youtube.com/user/GamesWorkshopWNT), Games Workshop's youtube channel, it is placed at the top of the page as a way to catch the
 users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
 
 ### Introduction Text
 
 As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby 
 itself.
-On smaller screens this information is placed within a collapse, which was taken from bootstrap and the button to open and close it was taken from
-font Awesome, so there isn't too much information on the screen for a user and the text can be collapsed away once finished with. The collapse uses
-Bootstraps Jquery.
+On smaller screens this information is placed within a **collapse**, which was taken from [bootstrap](https://getbootstrap.com/) and the button to open and close it was taken from
+[FontAwesome](https://fontawesome.com/), so there isn't too much information on the screen for a user and the text can be collapsed away once finished with. The collapse uses
+Bootstraps [Jquery](https://jquery.com/).
 
 ### Factions
 
-To provide an introduction to some of the factions in the Warhammer 40,000 universe there are four images, one of a Space Marine, Chaos Space Marine, Ork
-and Asuryani, which have been included as they are some of the original factions for the game and it also gives users an idea of how these factions look.
+To provide an introduction to some of the factions in the Warhammer 40,000 universe there are four **images**, one of a [Space Marine](assets/images/spacemarine.jpg), [Chaos Space Marine](assets/images/chaosspacemarine.jpg), [Ork](assets/images/ork.jpg)
+and [Asuryani](assets/images/eldar.jpg), which have been included as they are some of the **original factions** for the game and it also gives users an idea of how these factions look.
 The images have been made responsive so that on mobile they stack one on top of the other to keep the characters standing apart, allowing them to be larger
 and draw attention to themselves seperate from the others.
 On larger screens these images are accompanied by text that gives some background information on each faction, their themes and where they stand in the 
 universe.
 
 #### Modals
-On smaller screens the faction information has been made responsive and will no longer display on the page, instead selecting the image for each faction 
-will open up a modal which has been taken from Bootstrap and styled with CSS, this allows the text to be hidden away and only displayed when the user
+On smaller screens the faction information has been made **responsive** and will no longer display on the page, instead selecting the **image** for each faction 
+will open up a **modal** which has been taken from [bootstrap](https://getbootstrap.com/) and styled with **CSS**, this allows the text to be hidden away and only displayed when the user
 wishes to read it rather than taking up too much space on the screen.
 
 ### Newsletter Sign Up
 
-Appearing at the bottom on all screen sizes is a call to sign up to a Newsletter, selecting the letter image which was taken from Font Awesome will open up
-a modal which was taken from Bootstrap and styled with CSS, Within this modal is a form that was also taken from Bootstrap prompting the user to enter their
-email address. The email has been set to required so pressing the submit button without entering anything will display a error message, as will entering an
+Appearing at the bottom on **all screen sizes** is a call to sign up to a **Newsletter**, selecting the letter image which was taken from [FontAwesome](https://fontawesome.com/) will open up
+a modal which was taken from [bootstrap](https://getbootstrap.com/) and styled with **CSS**, Within this modal is a **form** that was also taken from **Bootstrap** prompting the user to enter their
+**email address**. The email has been set to **required** so pressing the submit button without entering anything will display an error message, as will entering an
 invalid email address.
-For the purposes of this project the collected inforation is not saved anywhere.
+*For the purposes of this project the collected inforation is not saved anywhere.*
 
 ### Possible Features to Implement
 
 - A which faction suits you style questionair that goes through a series of questions on style and combat types and leads users to a suggested faction that suits them based on their answers - This would require Javascript.
-- A carousel of images that shows some of the key units for different factions that could catch users eyes, clicking the image would take them through to the product on www.games-workshop.com
+- A carousel of images that shows some of the key units for different factions that could catch users eyes, clicking the image would take them through to the product on the [Games Workshop](www.games-workshop.com) webstore.
 
 ## Technologies Used
 
@@ -108,7 +108,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 #### Collector/Player user type
 **As a collector, I want to find information on the different factions, so that I can make a decision on which models to buy.**
 
-1. Arrive at home page
+1. Arrive at index.html
 2. Scroll through information and read about the setting and hobby 
     * (Mobile) Scroll to the collapse button and open the collapse
     * (Mobile) Read about the setting and hobby
@@ -126,7 +126,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 #### Fiction reader user type
 **As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.**
 
-1. Arive at home page
+1. Arive at index.html
 2. Watch Youtube video to get an initial idea of the setting
 3. scroll down to the introduction and read about the setting
     * (Mobile) Scroll to the collapse button and open the collapse
@@ -145,7 +145,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 #### New to Games Workshop user type
 **As someone who has never heard of Warhammer 40,000 before, I want to find out about the universe in easy to understand bitesize chunks, so that I can decideif this is something that interests me.**
 
-1. Arrive at home page
+1. Arrive at index.html
 2. Watch YouTube video to get an idea of the setting
 3. Scroll down to the introduction and read about the setting and hobby
     * (Mobile) Scroll to the collapse button and open the collapse
@@ -166,7 +166,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 ### Navbar
 
 **Desktop**
-1. Go to home page
+1. Go to index.html
 2. Select Introduction to see that the page scrolls smoothly to the introduction section
 3. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
 4. select factions to drop down the menu
@@ -180,7 +180,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 12. Select More Info to see that the page scrolls down to the footer of the page
 
 **Mobile**
-1. Go to home page
+1. Go to index.html
 2. Select Burger icon in top right corner of screen to drop down the menu
 3. Select Intoduction to see that the page scrolls smoothly to the Tag line and Introduction Collapse
 4. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
@@ -290,23 +290,23 @@ The Cloud9 IDE was used to develop this project, using the built in function of 
 
 GitHub pages was used to deploy this project using the following steps:
 
-1. Login to GitHub
-2. Select the Repositories tab
-3. Select the Milestone-project-1 repository
-4. From the options near the top of the page select Settings
-5. Scroll down to the section titled GitHub Pages
-6. Under Source select the drop down menu and select Master Branch
-7. The page will automatically refresh and the page is now deployed
-8. Scroll back down to the GitHub Pages section to find the URL
+1. **Login** to GitHub
+2. Select the **Repositories** tab
+3. Select the **Milestone-project-1** repository
+4. From the options near the top of the page select **Settings**
+5. Scroll down to the section titled **GitHub Pages**
+6. Under **Source** select the drop down menu and select **Master Branch**
+7. The page will automatically refresh and the page is now **deployed**
+8. Scroll back down to the GitHub Pages section to find the **URL**
 
 **To deploy the page locally**
 
-1. Use [this](https://github.com/OwenCookman/Milestone-project-1) link to go to the repository
-2. Above the repository files clikc the green button that says Clone or download
-3. Select the copy to clip board image next to the URL to copy the URL to your clip board
-4. Using your local IDE open a Git terminal
-5. Change the durectory to the location that you want to create the cloned directory
-6. Type git clone and paste the URL you copied from GitHub
+1. Use [**this**](https://github.com/OwenCookman/Milestone-project-1) link to go to the **repository**
+2. Above the repository files select the green button that says **Clone or download**
+3. Select the **copy to clip board** image next to the URL to copy the URL to your clip board
+4. Using your **local IDE** open a **Git terminal**
+5. Change the durectory to the location that you want to create the **cloned directory**
+6. Type **git clone** and **paste** the URL you copied from GitHub
 
 ## Credits
 
