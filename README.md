@@ -21,11 +21,15 @@ that they are most interested in.
 
 ### User Stories
 
-#### collector/player user type
+#### Collector/Player user type
 As a collector, I want to find information on the different factions, so that I can make a decision on which models to buy.
 
-#### fiction reader user type
+#### Fiction reader user type
 As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.
+
+#### New to the universe user type
+As someone who has never heard of Warhammer 40,000 before, I want to find out about the universe in easy to understand bitesize chunks, so that I can decide
+if this is something that interests me.
 
 #### Wireframes
 
@@ -54,7 +58,8 @@ users attention and build some interest and insight in to the setting. As the vi
 As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby 
 itself.
 On smaller screens this information is placed within a collapse, which was taken from bootstrap and the button to open and close it was taken from
-font Awesome, so there isn't too much information on the screen for a user and the text can be collapsed away once finished with.
+font Awesome, so there isn't too much information on the screen for a user and the text can be collapsed away once finished with. The collapse uses
+Bootstraps Jquery.
 
 #### Factions
 
@@ -78,17 +83,23 @@ email address. The email has been set to required so pressing the submit button 
 invalid email address.
 For the purposes of this project the collected inforation is not saved anywhere.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### Possible Features to Implement
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- A which faction suits you style questionair that goes through a series of questions on style and combat types and leads users to a suggested faction that suits them based on their answers - This would require Javascript.
+- A carousel of images that shows some of the key units for different factions that could catch users eyes, clicking the image would take them through to the product on www.games-workshop.com
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Technologies Used
 
-Features Left to Implement
-Another feature idea
+- This project uses **HTML** and **CSS** programming languages
+- [**Cloud9**](https://c9.io) was used as the development IDE
+- [BootstrapCDN](https://getbootstrap.com/) was used to make the layout and responsiveness of the page easier
+- BootstrapCDN's [FontAwesome](https://fontawesome.com/) was also utilised to provide icons for things such as social media, the Newsletter icon and the collapse icon
+- [Bootstrap's Library](https://getbootstrap.com/) was used to provide pieces of code that formed the basis of the collapse, modals, Newsletter sign up form and the embed for the iframe which holds the YouTube video
+- [Google Fonts](https://fonts.google.com/) was used to provide the font "Teko" throughout the page
+- [JQuery](https://jquery.com/) was used to provide the Javascript code required for the collapse, responsive Navbar and modals
+- [Popper.js](https://popper.js.org/) was also used for the responsive navbar
+- this projects wireframes were created on [WireFrameSketcher](https://wireframesketcher.com/)
+- The HTML and CSS code were validated using the [W3C Markup Validation Service](https://validator.w3.org/) website
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -112,7 +123,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
+### Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
