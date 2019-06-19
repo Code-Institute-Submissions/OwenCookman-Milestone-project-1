@@ -116,9 +116,12 @@ For the purposes of this project the collected inforation is not saved anywhere.
 3. Scroll to the factions section
 4. Read information on each faction
     * (Mobile) Select an image to open the modal and read the faction information
-5. scroll further down to the other website links and read the information there
+5. Scroll down and decide to sign up to the Newsletter
+6. Click on the Letter icon to open the email submission modal
+7. enter email address and click Submit
+8. scroll further down to the other website links and read the information there
     * (Mobile) Scroll down to the other website links
-6. Select www.games-workshop.com to visit to find out more information on one of the four specific factions or discover the other factions
+9. Select www.games-workshop.com to visit to find out more information on one of the four specific factions or discover the other factions
 
 #### Fiction reader user type
 **As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.**
@@ -132,9 +135,12 @@ For the purposes of this project the collected inforation is not saved anywhere.
 4. Scroll to the factions section
 5. Read information on each faction
     * (Mobile)  Select an image to open the modal and read the faction information
-6. Scroll to the other website links and read the information there
+6. Scroll down and decide to sign up to the Newsletter
+7. Click on the Letter icon to open the email submission modal
+8. enter email address and click Submit
+9. Scroll to the other website links and read the information there
     * (Mobile) Scroll down to the other website links
-7. Decide that the Black library website suits your needs as a user interested in science fiction and select that website
+10. Decide that the Black library website suits your needs as a user interested in science fiction and select that website
 
 #### New to Games Workshop user type
 **As someone who has never heard of Warhammer 40,000 before, I want to find out about the universe in easy to understand bitesize chunks, so that I can decideif this is something that interests me.**
@@ -148,11 +154,47 @@ For the purposes of this project the collected inforation is not saved anywhere.
 4. Scroll to the faction section
 5. Read information on each faction
     * (Mobile) Select an image to open the modal and read the faction information
-6. scroll further down to the other website links and read the information there
+6. Scroll down and decide to sign up to the Newsletter
+7. Click on the Letter icon to open the email submission modal
+8. enter email address and click Submit
+9. scroll further down to the other website links and read the information there
     * (Mobile) Scroll down to the other website links
-7. Decide which website suits what you are looking for and select that website
+10. Decide which website suits what you are looking for and select that website
 
+### Features Testing
 
+#### Navbar
+
+** Desktop **
+1. Go to home page
+2. Select Introduction to see that the page scrolls smoothly to the introduction section
+3. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
+4. select factions to drop down the menu
+5. Select Space Marines to see that the page scrolls smoothly to the Space Marine faction information
+6. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
+7. Select factions to drop down the menu
+8. Select Chaos Space Marines to see that the page scrolls smoothly to the Chaos Space Marine faction information
+9. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
+10. Select factions to drop down the menu
+11. Select Asuryani to see that the page scrolls smoothly to the Asuryani faction information
+12. Select More Info to see that the page scrolls down to the footer of the page
+
+** Mobile **
+1. Go to home page
+2. Select Burger icon in top right corner of screen to drop down the menu
+3. Select Intoduction to see that the page scrolls smoothly to the Tag line and Introduction Collapse
+4. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
+5. Select Factions to see that the page scrolls smoothly to the top of the faction images
+6. Select More Info to see that the page scrolls smoothly to the Footer of the page
+
+** Responsiveness **
+1. Using developer tools (Right click on web page and select Inspect) 
+2. Press Ctrl+Shift+M to set the screen to be responsive 
+3. Check different sized mobile devices and see that the Burger icon appears in the top right of the Navbar
+4. Check Different sized tablet devices and see that on smaller tablets the Burger icon is displayed while in screen elements are displayed like desktop and larger tablets do not have the Burger icon
+5. Set the screen as responsive and drag the margin in and out to see where Media queries switch over (max 767px / min 768 px) and the Navbar Burger Icon appears (max 991px)
+ 
+ 
 
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
