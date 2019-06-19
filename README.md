@@ -341,11 +341,11 @@ Code was taken from the Bootstrap library and modified to fit its needs for the 
 - [Form](https://getbootstrap.com/docs/4.3/components/forms/) used for the Newsletter sign up
 
 ## Acknowledgements
-I received inspiration for this project from my own experience of both discovering and introducing people to the Warhammer 40,000 universe
-My Mentor Simen Daehlin who has encoraged me to work outside of my comfort zone and helped me see lines of code with fresh eyes
-Anna Greaves for her excellent tutorials and helpful nature
-The other Code Institute Students who helped me with suggestions and testing
-My friends and family who also took part in testing.
+- I received inspiration for this project from my own experience of both discovering and introducing people to the Warhammer 40,000 universe
+- My Mentor Simen Daehlin who has encoraged me to work outside of my comfort zone and helped me see lines of code with fresh eyes
+- Anna Greaves for her excellent tutorials and helpful nature
+- The other Code Institute Students who helped me with suggestions and testing
+- My friends and family who also took part in testing.
 
 
 *This project was created for educational purposes only*
