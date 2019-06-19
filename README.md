@@ -316,19 +316,19 @@ The text used in the introductory collapse and faction modals were copied from t
 
 ### Media
 
-The [40k Logo](assets/images/40klogo.jpg) was taken from [The marysue](www.themarysue.com) news page
-The [background](assets/images/background.jpg) image for the page and modals was taken from [hadi palmex](www.hadi.palmex.co)
-The [Space Marine](assets/images/spacemarine.jpg) image was taken from the [official Warhammer 40,000](www.warhammer40000.com) page
-The [Chaos Space Marine](assets/images/chaosspacemarine.jpg) image was taken from the [Eternal Crusade](www.eternalcrusade.com) website
-The [Asuryani](assets/images/eldar.jpg) image was taken from [mikemyler.com](www.mikemyler.com)
-The [Ork](assets/images/ork.jpg) image was taken from [Pinterest](www.pinterest.com) (originl art by albe75.deviantart.com on deviantART)
-The [collapse filler](assets/images/collapse-filler.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
-The [Games Workshop logo](assets/images/gw-logo.jpg) was taken from the [Games Workshop wiki](https://en.wikipedia.org/wiki/Games_Workshop) page
-The [Black Library logo](assets/images/bl-logo.jpg) was taken from the [Warhammer Community](www.warhammer-community.com) page
-The [Warhammer Community logo](assets/images/wh-community.jpg) was taken from [40k RPG Tools](www.40krpgtools.com)
-The [Forgeworld logo](assets/images/fw-logo.jpg) was taken from the [Spikey Bits](www.spikeybits.com) web page 
-The [Youtube video replacement](assets/images/replacement.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
-The Youtube Video was taken from the [Warhammer Tv](https://www.youtube.com/user/GamesWorkshopWNT) YouTube channel
+- The [40k Logo](assets/images/40klogo.jpg) was taken from [The marysue](www.themarysue.com) news page
+- The [background](assets/images/background.jpg) image for the page and modals was taken from [hadi palmex](www.hadi.palmex.co)
+- The [Space Marine](assets/images/spacemarine.jpg) image was taken from the [official Warhammer 40,000](www.warhammer40000.com) page
+- The [Chaos Space Marine](assets/images/chaosspacemarine.jpg) image was taken from the [Eternal Crusade](www.eternalcrusade.com) website
+- The [Asuryani](assets/images/eldar.jpg) image was taken from [mikemyler.com](www.mikemyler.com)
+- The [Ork](assets/images/ork.jpg) image was taken from [Pinterest](www.pinterest.com) (originl art by albe75.deviantart.com on deviantART)
+- The [collapse filler](assets/images/collapse-filler.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
+- The [Games Workshop logo](assets/images/gw-logo.jpg) was taken from the [Games Workshop wiki](https://en.wikipedia.org/wiki/Games_Workshop) page
+- The [Black Library logo](assets/images/bl-logo.jpg) was taken from the [Warhammer Community](www.warhammer-community.com) page
+- The [Warhammer Community logo](assets/images/wh-community.jpg) was taken from [40k RPG Tools](www.40krpgtools.com)
+- The [Forgeworld logo](assets/images/fw-logo.jpg) was taken from the [Spikey Bits](www.spikeybits.com) web page 
+- The [Youtube video replacement](assets/images/replacement.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
+- The Youtube Video was taken from the [Warhammer Tv](https://www.youtube.com/user/GamesWorkshopWNT) YouTube channel
 
 ### Code
 
