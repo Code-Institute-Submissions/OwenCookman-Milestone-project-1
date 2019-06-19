@@ -27,7 +27,7 @@ As a collector, I want to find information on the different factions, so that I 
 #### Fiction reader user type
 As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.
 
-#### New to the universe user type
+#### New to Games Workshop user type
 As someone who has never heard of Warhammer 40,000 before, I want to find out about the universe in easy to understand bitesize chunks, so that I can decide
 if this is something that interests me.
 
@@ -109,13 +109,32 @@ For the purposes of this project the collected inforation is not saved anywhere.
 **As a collector, I want to find information on the different factions, so that I can make a decision on which models to buy.**
 
 1. Arrive at home page
-2. Scroll through information to the faction images
-3. Read information on each faction
-    * (mobile) Select an image to open the modal and read the faction information
-4. scroll further down to the other website links and read the information there
-    * (mobile) Scroll down to the other website links
-5. Select www.games-workshop.com to visit to find out more information on one of the four specific factions or discover the other factions
+2. Scroll through information and read about the setting and hobby 
+    * (Mobile) Scroll to the collapse button and open the collapse
+    * (Mobile) Read about the setting and hobby
+    * (Mobile) Close the collapse with the button at the bottom of the text
+3. Scroll to the factions section
+4. Read information on each faction
+    * (Mobile) Select an image to open the modal and read the faction information
+5. scroll further down to the other website links and read the information there
+    * (Mobile) Scroll down to the other website links
+6. Select www.games-workshop.com to visit to find out more information on one of the four specific factions or discover the other factions
 
+#### Fiction reader user type
+**As a reader of science fiction, I want to discover more about the setting, so that I can decide if I am interested in the fictional stories and characters.**
+
+1. Arive at home page
+2. Watch Youtube video to get an initial idea of the setting
+3. scroll down to the introduction and read about the setting
+    * (Mobile) Scroll to the collapse button and open the collapse
+    * (Mobile) Read about the setting
+    * (Mobile) Close the collapse with the button at the bottom of the text
+4. Scroll to the factions section
+5. Read information on each faction
+    * (Mobile)  Select an image to open the modal and read the faction information
+6. Scroll to the other website links and read the information there
+    * (Mobile) Scroll down to the other website links
+7. Decide that the Black library website suits your needs as a user interested in science fiction and select that website
 
 
 
