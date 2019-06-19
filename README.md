@@ -8,7 +8,7 @@ The idea behind this website is to create an introduction for people interested 
 providing the means to gain access to any further information that they might want, this will help to drive traffic towards games workshop's other websites 
 as well as social media pages and in turn drive up sales.
 
-### UX
+## UX
 
 The website is aimed at people who have an interest in the Warhammer 40,000 universe weather it is collecting, painting and/or playing the various games set 
 in the universe or the novels and background itself which interests them, the universe is a huge and daunting thing to get in to and it may be difficult for
@@ -40,20 +40,20 @@ Below are my first drafted ideas of how the page would look and work, these were
 - [Open Modal](assets/wireframes/modals.png)
 - [Open Collapse on Mobile](assets/wireframes/opencollapse.png)
 
-### Features
+## Features
 
-#### Navbar
+### Navbar
 
 The Navbar used in this project was taken from Bootstraps library and then styled with CSS, some of the list items were reordered and an additional one 
 was added to match the layout of the page. The navbar is fixed so that a user can move to any part of the page from anywhere on the page and is styled to 
 be opaque so that it doesn't get in the way.
 
-#### Introduction Video
+### Introduction Video
 
 Using a Bootstrap embed this video was taken from Warhammer TV, Games Workshop's youtube channel, it is placed at the top of the page as a way to catch the
 users attention and build some interest and insight in to the setting. As the video is quite large, on smaller screens it is replaced by an image instead.
 
-#### Introduction Text
+### Introduction Text
 
 As this is a large block of text it includes an image to break up the information, one block is to set the scene while the other speaks about the hobby 
 itself.
@@ -61,7 +61,7 @@ On smaller screens this information is placed within a collapse, which was taken
 font Awesome, so there isn't too much information on the screen for a user and the text can be collapsed away once finished with. The collapse uses
 Bootstraps Jquery.
 
-#### Factions
+### Factions
 
 To provide an introduction to some of the factions in the Warhammer 40,000 universe there are four images, one of a Space Marine, Chaos Space Marine, Ork
 and Asuryani, which have been included as they are some of the original factions for the game and it also gives users an idea of how these factions look.
@@ -70,12 +70,12 @@ and draw attention to themselves seperate from the others.
 On larger screens these images are accompanied by text that gives some background information on each faction, their themes and where they stand in the 
 universe.
 
-##### Modals
+#### Modals
 On smaller screens the faction information has been made responsive and will no longer display on the page, instead selecting the image for each faction 
 will open up a modal which has been taken from Bootstrap and styled with CSS, this allows the text to be hidden away and only displayed when the user
 wishes to read it rather than taking up too much space on the screen.
 
-#### Newsletter Sign Up
+### Newsletter Sign Up
 
 Appearing at the bottom on all screen sizes is a call to sign up to a Newsletter, selecting the letter image which was taken from Font Awesome will open up
 a modal which was taken from Bootstrap and styled with CSS, Within this modal is a form that was also taken from Bootstrap prompting the user to enter their
@@ -83,12 +83,12 @@ email address. The email has been set to required so pressing the submit button 
 invalid email address.
 For the purposes of this project the collected inforation is not saved anywhere.
 
-#### Possible Features to Implement
+### Possible Features to Implement
 
 - A which faction suits you style questionair that goes through a series of questions on style and combat types and leads users to a suggested faction that suits them based on their answers - This would require Javascript.
 - A carousel of images that shows some of the key units for different factions that could catch users eyes, clicking the image would take them through to the product on www.games-workshop.com
 
-### Technologies Used
+## Technologies Used
 
 - This project uses **HTML** and **CSS** programming languages
 - [**Cloud9**](https://c9.io) was used as the development IDE
@@ -161,11 +161,11 @@ For the purposes of this project the collected inforation is not saved anywhere.
     * (Mobile) Scroll down to the other website links
 10. Decide which website suits what you are looking for and select that website
 
-### Features Manual Testing
+## Features Manual Testing
 
-#### Navbar
+### Navbar
 
-** Desktop **
+**Desktop**
 1. Go to home page
 2. Select Introduction to see that the page scrolls smoothly to the introduction section
 3. Select Warhammer 40,000 to see that the page scrolls smoothly to the top of the page
@@ -179,7 +179,7 @@ For the purposes of this project the collected inforation is not saved anywhere.
 11. Select Asuryani to see that the page scrolls smoothly to the Asuryani faction information
 12. Select More Info to see that the page scrolls down to the footer of the page
 
-** Mobile **
+**Mobile**
 1. Go to home page
 2. Select Burger icon in top right corner of screen to drop down the menu
 3. Select Intoduction to see that the page scrolls smoothly to the Tag line and Introduction Collapse
@@ -187,58 +187,58 @@ For the purposes of this project the collected inforation is not saved anywhere.
 5. Select Factions to see that the page scrolls smoothly to the top of the faction images
 6. Select More Info to see that the page scrolls smoothly to the Footer of the page
 
-** Responsiveness **
+**Responsiveness**
 1. Using developer tools (Right click on web page and select Inspect) 
 2. Press Ctrl+Shift+M to set the screen to be responsive 
 3. Check different sized mobile devices and see that the Burger icon appears in the top right of the Navbar
 4. Check Different sized tablet devices and see that on smaller tablets the Burger icon is displayed while in screen elements are displayed like desktop and larger tablets do not have the Burger icon
 5. Set the screen as responsive and drag the margin in and out to see where Media queries switch over (max 767px / min 768 px) and the Navbar Burger Icon appears (max 991px)
 
-#### Youtube video
+### Youtube video
 
-** Desktop **
+**Desktop**
 1. Go to index.html
 2. See that the Youtube video is displayed
 3. Select play to ensure the video is working correctly
 
-** Mobile **
+**Mobile**
 1. Go to index.html
 2. See that an image has taken place of the Youtube video
 
-** Responsiveness **
+**Responsiveness**
 1. Using developer tools (Right click on web page and select Inspect) 
 2. Press Ctrl+Shift+M to set the screen to be responsive
 3. select Responsive from the toolbar menu
 4. Move the margin in and out to see that the YouTube video is replaced by an image at 767 px
 
-#### Intoduction Text
+### Intoduction Text
 
-** Desktop **
+**Desktop**
 1. Go to index.html
 2. Scroll to the introduction
 3. See that all text is displayed as styled and that the deviding image is positioned correctly
 
-** Mobile **
+**Mobile**
 1. Go to index.html
 2. Scroll to the downward chevron icon and select it to open the collapse
-3. see that the collapse opens to display the introduction text and that it is displayed correctly as styled
+3. See that the collapse opens to display the introduction text and that it is displayed correctly as styled
 4. Select the upward chevron at the bottom of the text to recollapse the text
 
-** Responsiveness **
+**Responsiveness**
 1. Using developer tools (Right click on web page and select Inspect) 
 2. Press Ctrl+Shift+M to set the screen to be responsive
-3. select Responsive from the toolbar menu
+3. Select Responsive from the toolbar menu
 4. Move the margin in and out to see that the introduction text is replaced by a downward chevron at 767 px
 
 #### Faction Images/Information
 
-** Desktop **
+**Desktop**
 1. Go to index.html
 2. Scroll down to the faction section starting with Space Marines
 3. Check that the space Marine image is floating to the right of its associated text and that all other images are floating in an alternating pattern
 4. Ensure all text is appearing as styled and that the images are the correct sized
 
-** Mobile **
+**Mobile**
 1. Go to index.html
 2. Scroll down to the faction section ensuring all four images are seperate and stand apart from each other starting with the Space Marine image
 3. Select the Space Marine and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
@@ -250,16 +250,16 @@ For the purposes of this project the collected inforation is not saved anywhere.
 3. Select the Asuryani and see that a modal appears containing all of the faction information associated with the image and check that all of the text is appearing as styled
 4. Select off of the modal or select the cross close icon in the top right corner
 
-** Responsiveness **
+**Responsiveness**
 
 1. Using developer tools (Right click on web page and select Inspect) 
 2. Press Ctrl+Shift+M to set the screen to be responsive
-3. select Responsive from the toolbar menu
+3. Select Responsive from the toolbar menu
 4. Move the margin in and out to see that the faction information dissapears and only the images remain at 767 px
 
 #### Newsletter Sign Up
 
-** All Devices **
+**AllDevices**
 
 1. Go to index.html
 2. Scroll down to the Sign up to our newsletter! section
@@ -305,8 +305,8 @@ GitHub pages was used to deploy this project using the following steps:
 2. Above the repository files clikc the green button that says Clone or download
 3. Select the copy to clip board image next to the URL to copy the URL to your clip board
 4. Using your local IDE open a Git terminal
-5. change the durectory to the location that you want to create the cloned directory
-6. type git clone and paste the URL you copied from GitHub
+5. Change the durectory to the location that you want to create the cloned directory
+6. Type git clone and paste the URL you copied from GitHub
 
 ## Credits
 
