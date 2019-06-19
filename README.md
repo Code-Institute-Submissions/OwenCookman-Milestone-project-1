@@ -272,7 +272,10 @@ For the purposes of this project the collected inforation is not saved anywhere.
 8. Select submit and see that the modal closes
 (No information is stored through this process)
 
+### Code Validation
 
+- The **HTML** code was validated using [**W3C Markup Validation**](https://validator.w3.org/)
+- The **CSS** code was validated using [**W3C CSS Validation**](https://jigsaw.w3.org/css-validator/)
 
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
