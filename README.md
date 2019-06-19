@@ -197,12 +197,12 @@ For the purposes of this project the collected inforation is not saved anywhere.
 #### Youtube video
 
 ** Desktop **
-1. Go to home page
+1. Go to index.html
 2. See that the Youtube video is displayed
 3. Select play to ensure the video is working correctly
 
 ** Mobile **
-1. Go to home page
+1. Go to index.html
 2. See that an image has taken place of the Youtube video
 
 ** Responsiveness **
@@ -210,6 +210,25 @@ For the purposes of this project the collected inforation is not saved anywhere.
 2. Press Ctrl+Shift+M to set the screen to be responsive
 3. select Responsive from the toolbar menu
 4. Move the margin in and out to see that the YouTube video is replaced by an image at 767 px
+
+#### Intoduction Text
+
+** Desktop **
+1. Go to index.html
+2. Scroll to the introduction
+3. See that all text is displayed as styled and that the deviding image is positioned correctly
+
+** Mobile **
+1. Go to index.html
+2. Scroll to the downward chevron icon and select it to open the collapse
+3. see that the collapse opens to display the introduction text and that it is displayed correctly as styled
+4. Select the upward chevron at the bottom of the text to recollapse the text
+
+** Responsiveness **
+1. Using developer tools (Right click on web page and select Inspect) 
+2. Press Ctrl+Shift+M to set the screen to be responsive
+3. select Responsive from the toolbar menu
+4. Move the margin in and out to see that the introduction text is replaced by a downward chevron at 767 px
 
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
