@@ -108,6 +108,11 @@ html {
     padding-top: 160px;
 }
 
+div h1 {
+    display: block;
+    margin: 0 auto;
+}
+
 /*Navbar*/
 
 .bg-dark {
