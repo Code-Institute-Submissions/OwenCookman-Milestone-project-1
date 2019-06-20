@@ -1,6 +1,8 @@
 ![Warhammer 40,000 Logo](assets/images/40klogo.jpg)
 # Warhammer 40,000
 
+Click [here](https://owencookman.github.io/Milestone-project-1/) to view the deployed website.
+
 The objective of this webpage is to provide an introduction to the Warhammer 40,000 universe along with an introduction to some of the original factions.
 As the warhammer 40,000 universe has a huge rich background of lore and factions it can be quite daunting for new players, collectors and readers to pick 
 up.
@@ -92,9 +94,8 @@ invalid email address.
 
 - This project uses **HTML** and **CSS** programming languages
 - [**Cloud9**](https://c9.io) was used as the development IDE
-- [**BootstrapCDN**](https://getbootstrap.com/) was used to make the layout and responsiveness of the page easier
-- BootstrapCDN's [**FontAwesome**](https://fontawesome.com/) was also utilised to provide icons for things such as social media, the Newsletter icon and the collapse icon
-- [**Bootstrap's Library**](https://getbootstrap.com/) was used to provide pieces of code that formed the basis of the collapse, modals, Newsletter sign up form and the embed for the iframe which holds the YouTube video
+- [**Bootstrap**](https://getbootstrap.com/) was used in this project
+- [**FontAwesome**](https://fontawesome.com/) was utilised to provide icons for things such as social media, the Newsletter icon and the collapse icon
 - [**Google Fonts**](https://fonts.google.com/) was used to provide the font "Teko" throughout the page
 - [**JQuery**](https://jquery.com/) was used to provide the Javascript code required for the collapse, responsive Navbar and modals
 - [**Popper.js**](https://popper.js.org/) was also used for the responsive navbar
@@ -329,16 +330,6 @@ The text used in the introductory collapse and faction modals were copied from t
 - The [Forgeworld logo](assets/images/fw-logo.jpg) was taken from the [Spikey Bits](www.spikeybits.com) web page 
 - The [Youtube video replacement](assets/images/replacement.jpg) image was taken from the [Warhammer Community](www.warhammer-community.com) page
 - The Youtube Video was taken from the [Warhammer Tv](https://www.youtube.com/user/GamesWorkshopWNT) YouTube channel
-
-### Code
-
-Code was taken from the Bootstrap library and modified to fit its needs for the below:
-
-- [Navbar](https://getbootstrap.com/docs/4.3/components/navs/) for a responsive Navbar
-- [Embed](https://getbootstrap.com/docs/4.3/utilities/embed/) for the YouTube video
-- [Collapse](https://getbootstrap.com/docs/4.3/components/collapse/) for the collapse used in making the introductory text responsive
-- [Modal](https://getbootstrap.com/docs/4.3/components/modal/) for the faction modals and the modal that contains the Newsletter sign up form
-- [Form](https://getbootstrap.com/docs/4.3/components/forms/) used for the Newsletter sign up
 
 ## Acknowledgements
 - I received inspiration for this project from my own experience of both discovering and introducing people to the Warhammer 40,000 universe
